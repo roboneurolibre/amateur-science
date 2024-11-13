@@ -5,6 +5,8 @@ The idea of an "amateur" in science is pretty new - many of the most significant
 
 # Introduction
 
+This is an example citation @Price1963.
+
 In 1962 physicist and historian of science Derek de Solla Price gave a series of lectures in which he divided the whole history of science into two distinct periods: he called them “little science” and “big science.” 
 Little science, according to Price, encompassed the whole period of scientific activity that occurred prior to the Scientific Revolution. Before this inflection point, scientific endeavors were carried out on a small scale by people working independently or in small groups, and were either self-funded or supported by rich patrons.
 
