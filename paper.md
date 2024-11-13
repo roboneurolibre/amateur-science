@@ -5,9 +5,8 @@ The idea of an "amateur" in science is pretty new - many of the most significant
 
 # Introduction
 
-This is an example citation @Price1963.
+In 1962 physicist and historian of science Derek de Solla Price gave a series of lectures in which he divided the whole history of science into two distinct periods: he called them “little science” and “big science” @Price1963.
 
-In 1962 physicist and historian of science Derek de Solla Price gave a series of lectures in which he divided the whole history of science into two distinct periods: he called them “little science” and “big science.” 
 Little science, according to Price, encompassed the whole period of scientific activity that occurred prior to the Scientific Revolution. Before this inflection point, scientific endeavors were carried out on a small scale by people working independently or in small groups, and were either self-funded or supported by rich patrons.
 
 Big science, characterized by ambitious and highly complex research conducted by large numbers of scientists and carried out with the support of institutions like universities and governments, emerged in the 20th century. Though government-funded research did increase throughout the Scientific Revolution and the Industrial Revolution as the possible applications of scientific research became increasingly ambitious, 20th century projects like the space race and the Manhattan Project exemplify the world-changing technology that big science was built to produce. 
@@ -82,12 +81,13 @@ The changes in scientific institutions that occurred in the 19th century reflect
 Over the previous 300 years, science had become indispensable to the functioning of the modern world, but it had also become increasingly tied to, and reliant on, political and economic power structures. Throughout the 20th century scientific institutions became increasingly intertwined with government and industry. Funding for science in this period was abundant but increasingly focused on applied research, which was becoming more specialized.
 The 20th century also witnessed the escalating influence of science and industry on world events. The First World War intensified the development of research to advance military capability, spurring massive projects like the Manhattan Project for the atomic bomb and later the space race, projects which proved instrumental in the outcomes of World War II and the Cold War era, respectively. Scientific research became a strategic imperative leveraged by governments worldwide; many countries formally institutionalized science as a national priority, establishing dedicated policy bodies like the U.S. National Science Foundation in 1950. 
 
-The growth of research in government, private and academic settings accelerated the institutionalization of science, and led to a steady decline in the popularity of amateur science. Our research into worldwide patent applications over the course of the 20th century illustrates this shift. Fig. 1 highlights the relative proportion of patent applications filed by private companies, public research centers, and universities, as compared to patent applications filed by individual researchers. The steady increase in applications by institutions, and the decrease in applications filed by solo inventors, continues nearly unbroken for over 100 years.
+The growth of research in government, private and academic settings accelerated the institutionalization of science, and led to a steady decline in the popularity of amateur science. Our research into worldwide patent applications over the course of the 20th century illustrates this shift. [](#fig1) highlights the relative proportion of patent applications filed by private companies, public research centers, and universities, as compared to patent applications filed by individual researchers. The steady increase in applications by institutions, and the decrease in applications filed by solo inventors, continues nearly unbroken for over 100 years.
 
 :::{iframe} https://chart-studio.plotly.com/~janeabdo/37.embed
 :width: 100% 
 :height: 600px 
-:align: center 
+:align: center
+:label: fig1
 
 Worldwide patent applications classification 
 :::
@@ -131,15 +131,17 @@ As we enter the 21st century, powerful new technological tools and the emergence
 
 :::{iframe} https://janeabdo.github.io/carousel/
 :width: 100%
+:height: 130%
 :label: fig2
 
 
 An interactive timeline of amateur science through history.
 :::
 
-**Appendix A**
+:::{admonition} Appendix A: Methodology for classifying patents
+:class: dropdown
 
-The dataset in Fig. 1 was obtained by web scraping the WIPO PatentScope website from 1910 to 2023. For each year we scraped the first 99 pages from the database each year (~200 patents per page), creating a sample of around 19,800 patents per year before cleaning and preprocessing. Patents were sorted using the "Relevance" criterion, an algorithm applied to keyword searches (see Guide: https://patentscope.wipo.int/search/help/en/BM25scoring.pdf). As no keywords were searched (only the publication year), the displayed patents are considered to be randomly sampled. Due to computational constraints, patents were scraped without delving into each individual patent. This approach limited the extraction of fields such as “Applicant” and “Inventor” to only the first row, possibly causing the observed fluctuations during the years 2010–2017. Patents were classified into three types: Solo Inventor, Research/Company, or Other.  These fields usually appear in the first row of the patent description. If this wasn't the case, or if the classification was unclear, the patent was Other patents, typically unclear, were omitted from the analysis. Research/Company patents included applicants from private industries, research centers, and universities, while Solo Inventor patents had individuals as applicants. The relative proportions of the two patent types were calculated for each year and displayed as stacked bars using the Plotly Express library in Python. 
+The dataset in [](#fig2) was obtained by web scraping the WIPO PatentScope website from 1910 to 2023. For each year we scraped the first 99 pages from the database each year (~200 patents per page), creating a sample of around 19,800 patents per year before cleaning and preprocessing. Patents were sorted using the "Relevance" criterion, an algorithm applied to keyword searches (see Guide: https://patentscope.wipo.int/search/help/en/BM25scoring.pdf). As no keywords were searched (only the publication year), the displayed patents are considered to be randomly sampled. Due to computational constraints, patents were scraped without delving into each individual patent. This approach limited the extraction of fields such as “Applicant” and “Inventor” to only the first row, possibly causing the observed fluctuations during the years 2010–2017. Patents were classified into three types: Solo Inventor, Research/Company, or Other.  These fields usually appear in the first row of the patent description. If this wasn't the case, or if the classification was unclear, the patent was Other patents, typically unclear, were omitted from the analysis. Research/Company patents included applicants from private industries, research centers, and universities, while Solo Inventor patents had individuals as applicants. The relative proportions of the two patent types were calculated for each year and displayed as stacked bars using the Plotly Express library in Python. 
 
 Here’s a more detailed breakdown of the method for assigning patents to each category:  
 
@@ -158,10 +160,10 @@ If "Inventor" field is missing:
 -Otherwise, assign as “Other”.
 
 If "Applicant" field is missing, assign as “Solo Inventor”.
+:::
 
 **References**
 
-Price, D. (1963). *Little Science, Big Science.* New York Chichester, West Sussex: Columbia University Press. [https://doi.org/10.7312/pric91844](https://doi.org/10.7312/pric91844)  
 AccessHealth MA (formerly Community Research Initiative CRI). (2022, June 14). *History | AccessHealth MA l CRI*. AccessHealth MA L CRI. [https://accesshealthma.org/about-accesshealthma/history/](https://accesshealthma.org/about-accesshealthma/history/)  
 Advanced Research and Invention Agency (ARIA): policy statement. (2022, July 19). GOV.UK. [https://www.gov.uk/government/publications/advanced-research-and-invention-agency-aria-statement-of-policy-intent/advanced-research-and-invention-agency-aria-policy-statement](https://www.gov.uk/government/publications/advanced-research-and-invention-agency-aria-statement-of-policy-intent/advanced-research-and-invention-agency-aria-policy-statement)  
 Aella. (2001, September 19). *Knowingless | Aella | Substack*. Knowingless. [https://aella.substack.com/](https://aella.substack.com/)  
