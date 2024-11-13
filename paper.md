@@ -94,7 +94,7 @@ The growth of research in government, private and academic settings accelerated 
 Worldwide patent applications classification (1910 - 2023). Source: [WIPO](https://patentscope.wipo.int/) Patentscope.
 :::
 
-Relative proportion of worldwide patent applications classified by research/company and solo inventor from 1910 to 2023. The data shows an initial predominance of Solo Inventor patents and the steady increase of Research/Company patents during the mid-20th century, showing the professionalization of science. See Appendix A [](#appendixa) for more detail on the methodology used. 
+Relative proportion of worldwide patent applications classified by research/company and solo inventor from 1910 to 2023. The data shows an initial predominance of Solo Inventor patents and the steady increase of Research/Company patents during the mid-20th century, showing the professionalization of science. See [](#appendixa) for more detail on the methodology used. 
 
 Though the scientific institutions of the 20th century had become more open to women and ethnic minorities, amateurs were more marginalized than ever. A few fields maintained a role for amateur involvement: astronomers and naturalists in particular continued making new discoveries in their fields, and tinkering with radio and electrical systems in home workshops was a popular hobby for many amateur inventors. But compared to professional scientists, amateur research was given little credit or legitimacy during this period, and the tools needed to conduct cutting-edge research in many fields were totally inaccessible to the lay public
 
@@ -145,9 +145,32 @@ An interactive timeline of amateur science through history.
 :class: dropdown
 :label: appendixa
 
-The dataset in [](#fig2) was obtained by web scraping the WIPO PatentScope website from 1910 to 2023. For each year we scraped the first 99 pages from the database each year (~200 patents per page), creating a sample of around 19,800 patents per year before cleaning and preprocessing. Patents were sorted using the "Relevance" criterion, an algorithm applied to keyword searches (see Guide: https://patentscope.wipo.int/search/help/en/BM25scoring.pdf). As no keywords were searched (only the publication year), the displayed patents are considered to be randomly sampled. Due to computational constraints, patents were scraped without delving into each individual patent. This approach limited the extraction of fields such as “Applicant” and “Inventor” to only the first row, possibly causing the observed fluctuations during the years 2010–2017. Patents were classified into three types: Solo Inventor, Research/Company, or Other.  These fields usually appear in the first row of the patent description. If this wasn't the case, or if the classification was unclear, the patent was Other patents, typically unclear, were omitted from the analysis. Research/Company patents included applicants from private industries, research centers, and universities, while Solo Inventor patents had individuals as applicants. The relative proportions of the two patent types were calculated for each year and displayed as stacked bars using the Plotly Express library in Python. 
+The dataset in [](#fig1) was obtained by web scraping the WIPO PatentScope website from 1910 to 2023. For each year we scraped the first 99 pages from the database each year (~200 patents per page), creating a sample of around 19,800 patents per year before cleaning and preprocessing. Patents were sorted using the "Relevance" criterion, an algorithm applied to keyword searches (see Guide [here](https://patentscope.wipo.int/search/help/en/BM25scoring.pdf)). As no keywords were searched (only the publication year), the displayed patents are considered to be randomly sampled. Due to computational constraints, patents were scraped without delving into each individual patent. This approach limited the extraction of fields such as “Applicant” and “Inventor” to only the first row, possibly causing the observed fluctuations during the years 2010–2017. Patents were classified into three types: Solo Inventor, Research/Company, or Other.  These fields usually appear in the first row of the patent description. If this wasn't the case, or if the classification was unclear, the patent was Other patents, typically unclear, were omitted from the analysis. Research/Company patents included applicants from private industries, research centers, and universities, while Solo Inventor patents had individuals as applicants. The relative proportions of the two patent types were calculated for each year and displayed as stacked bars using the Plotly Express library in Python. 
 
 Here’s a more detailed breakdown of the method for assigning patents to each category:  
+
+```{mermaid}
+flowchart TD
+    Start["Start"]
+
+    Start --> CheckFields{"Are both 'Applicant' and 'Solo Inventor' fields present?"}
+
+    CheckFields -- "Yes" --> ApplicantResearch{"Does 'Applicant' contain research/company terms?"}
+    CheckFields -- "No" --> MissingInventor{"Is 'Inventor' field missing?"}
+    CheckFields -- "No Applicant" --> AssignSolo["Assign as 'Solo Inventor'"]
+
+    ApplicantResearch -- "Yes" --> InApplicantInventor{"Is 'Applicant' also in 'Inventor'?"}
+    ApplicantResearch -- "No" --> AssignOther1["Assign as 'Other'"]
+
+    InApplicantInventor -- "Yes" --> AssignSolo2["Assign as 'Solo Inventor'"]
+    InApplicantInventor -- "No" --> AssignResearchCompany["Assign as 'Research/Company'"]
+
+    MissingInventor -- "Yes" --> ApplicantContainsTerms{"Does 'Applicant' contain research/company terms?"}
+    MissingInventor -- "No" --> AssignOther2["Assign as 'Other'"]
+
+    ApplicantContainsTerms -- "Yes" --> AssignResearchCompany2["Assign as 'Research/Company'"]
+    ApplicantContainsTerms -- "No" --> AssignOther3["Assign as 'Other'"]
+```
 
 If both "Applicant" and "Solo Inventor" fields are present:
 
