@@ -1,4 +1,4 @@
-{ "src": "https://raw.githubusercontent.com/plotly/datasets/master/hobbs-pearson-trials.csv",
+{ "src": "https://drive.google.com/uc?id=1XmKfsMH-cCJepwuUwCSf2n09zWURMFlr",
   "dst": "../data",
-  "projectName": "neurolibre-demo-dataset"
+  "projectName": "amateur-science"
 }

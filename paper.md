@@ -1,195 +1,189 @@
----
-numbering:
-  heading_2: false
-  figure:
-    template: Fig. %s
----
 
-## Articles with code vs articles from code
++++{ "part": "abstract" }
+The idea of an "amateur" in science is pretty new - many of the most significant scientists in history were curious people with regular jobs in their time (like “monk,” or “tutor,” or “son of a rich guy”) who observed natural phenomena and then interpreted their findings. This pattern has changed dramatically over the last century – most science these days is done by professionals, and it is quite difficult for independent researchers to do science outside of academic or governmental institutions. This article covers the history of amateur science and traces its transformation from a wide variety of activities conducted by philosophers and hobbyists to a narrowly defined and highly competitive professional field. The article ends with an exploration of the role of the amateur in the production of scientific knowledge in the 21st century and the tools that have emerged to make it possible.
++++
 
-One of the main advantages of articles written in MyST Markdown is the fact that you can bundle several types of outputs (such as figures, tables, equations, etc.) from your Jupyter Notebooks in a single document. This is made possible by the use of `directives`, which are special commands that instruct MyST Markdown to include the content of a notebook, a file, or a chunk of text in your document or cite references. You can use DOIs, [](https://doi.org/10.31219/osf.io/h89js) or a local bibliography file (`paper.bib`) for citations @Boudreau2023.
+# Introduction
+
+In 1962 physicist and historian of science Derek de Solla Price gave a series of lectures in which he divided the whole history of science into two distinct periods: he called them “little science” and “big science.” 
+Little science, according to Price, encompassed the whole period of scientific activity that occurred prior to the Scientific Revolution. Before this inflection point, scientific endeavors were carried out on a small scale by people working independently or in small groups, and were either self-funded or supported by rich patrons.
+
+Big science, characterized by ambitious and highly complex research conducted by large numbers of scientists and carried out with the support of institutions like universities and governments, emerged in the 20th century. Though government-funded research did increase throughout the Scientific Revolution and the Industrial Revolution as the possible applications of scientific research became increasingly ambitious, 20th century projects like the space race and the Manhattan Project exemplify the world-changing technology that big science was built to produce. 
+
+The emergence of big science changed many things about the way scientific knowledge was produced, and those changes have had lasting impacts. Price argued that the extensive institutionalization of science through the 20th century created the conditions for the current paradigm of scientific advancement, in which the boundaries of scientific knowledge expand incrementally through the accumulation of isolated discoveries, rather than through the emergence of paradigm-shifting theories. 
+
+The central role that the government and private industry play in funding big science, and the vast bureaucracy that allocates that funding, have led to a scientific process that is more hierarchical and less autonomous than the scientific process of previous eras. These dynamics are exacerbated by the increasingly arduous standards set by academic institutions and journals that all players in the field must meet in order to participate in mainstream science. 
+
+Despite these challenges, a devoted lineage of amateurs have continued to expand their fields from outside of the academy. In the last 60 years, new pathways have emerged for interested amateurs to contribute to large-scale scientific projects, and many have found ways to dialogue with professional scientists in their field. Recent developments in technology and increased access to scientific knowledge have spurred several movements calling for a more transparent and democratic scientific paradigm. These changes prompt the question: are we on the verge of a renaissance in amateur science?
+This article features original research on patents, interviews with case study subjects, and discussion of secondary sources such as the Stanford encyclopedia of philosophy, scholarly articles on the history of science, and Bowler and Morus’ textbook on the subject, *Making Modern Science*. 
+
+# The Long Reign of the Natural Philosopher
+
+“Science” in the modern sense refers both to an agreed-upon body of knowledge about the world, and to the distinct set of practices by which that knowledge is created. The concept of the scientific method is now so synonymous with the idea of science that it might be confusing to think of the activities of pre-modern researchers and natural philosophers as “science,” especially as they overlap with epistemological systems now considered to be unscientific, such as astrology, theology, and alchemy. But curious people have been doing some version of science, i.e. discovering new things about the world and using these discoveries to solve practical problems, since the formation of the earliest civilizations. 
+
+The modern version of the scientific method was established a few hundred years ago during the scientific revolution, but some of its component parts date back to the emergence of natural philosophy in Ancient Greece. Natural philosophy was the earliest form of what we might call scientific practice. Natural philosophers, such as Plato and Aristotle, made detailed observations about the world and attempted to use their findings to generate more general hypotheses about the nature of reality. 
+
+This approach was inherently interdisciplinary. Natural philosophers were attempting to answer big, existential questions using all the tools they had at their disposal, and the bodies of work produced by these scholars were often wide-ranging and heterogenous, drawing on direct observation, religious texts, mathematics, intuition, folk wisdom, and formal logic.
+
+Plato’s discovery of the deductive method was central to the development of science as we now know it, and laid the groundwork for his student Aristotle, who completed the earliest known formal study of logic in history, the Organon. Aristotle’s discovery of inductive reasoning and emphasis on empiricism make him perhaps the most significant figure in the development of modern science before the 17th century. He also made founding contributions to the fields that would become physics, astronomy, geology, biology, zoology, and psychology, as well as setting the stage for centuries of productive engagement with these ideas throughout the Byzantine Empire and the Islamic Empire, long after Western Europe had plunged into the Dark Ages after the fall of Rome.. 
+
+## Case Study: Aristotle
+
+Aristotle joined Plato’s Academy when he was 17 or 18 and stayed in Athens until his late 30s. After leaving Athens he traveled, including a trip with one of his students to the isle of Lesbos, where they studied the animals, insects, plants, and environmental conditions of two lagoons on the island, writing three books on his theories of the origins of animals and their relationship to the environment. He was invited back to Macedonia, his birthplace, to be a tutor to the king’s son (who would go on to take the throne as Alexander the Great), and later tutored two other future-kings, Ptolemy and Cassander. Eventually he moved back to Athens and established his own school, called Lyceum, where he taught courses for the next 12 years. He is thought to have produced the bulk of his body of work during that time.
+
+# Golden Eras and Dark Ages
+
+The fall of Rome in the 5th century distanced Western Europe from the intellectual legacies of Classical Antiquity, marking the beginning of a period of declining scholarship in the West. On the other hand, scholars in China, India, and the Middle East continued making important discoveries in the fields of astronomy, medicine, physics, and mathematics over the next 12 centuries. Golden eras and dark ages came and went as the Byzantine and Islamic empires grew, building schools, libraries, civic and religious institutions, and then fell into periods of decline. Aristotle’s manuscripts were translated into Latin and brought to Medieval Europe starting in the 11th century, which sparked a renewed interest in the knowledge of the ancients. In particular, translations of Aristotle’s work on logic, which were brought to Europe by Greek scholars fleeing Constantinople after it fell to the Turks in the 15th century, introduced the idea of deduction and empiricism to Western scientists and set the stage for the Scientific Revolution to come.
+
+Scientists of classical antiquity and the Middle Ages, though amateurs, were usually educated, either as a student in a philosopher’s school, a religious institution or, later on, at a university. The 11th and 12th centuries saw the emergence of the first European universities. These academic institutions mainly trained students to become doctors, lawyers, or priests, but students were also required to study grammar, rhetoric, logic, arithmetic, astronomy, geometry, and music. The scientists of the Middle Ages spent much of their time engaging in dialogue with scholars in a wide range of disciplines, and most scientific progress before the 16th century was achieved by individuals reading texts (and commentary on those texts), and then conducting their own experiments and writing their own books and commentaries in response. 
+
+Since all science was being produced by “amateurs” rather than professionals, once an aspiring scientist was educated they had to find a way to support their research. Some were from wealthy or aristocratic families, and so did their research alongside familial and political obligations. Others took jobs at universities, or in the government or church. And some found a patron who was willing to support their work. Many pursued their interests independent of (and sometimes directly against the wishes of) the institutions they were embedded within. 
+
+## Case Study: Roger Bacon
+
+Bacon was a 13th-century scientist and early champion of the empirical method. After earning his Master’s degree at Oxford he took a job as a teacher, lecturing on Latin grammar, Aristotelian logic, arithmetic, geometry, and the mathematical aspects of astronomy and music. In his mid-life he spent about a decade as an independent scholar, then became a friar in the Franciscan order. Soon after joining, a new prohibition against members of his order publishing books or pamphlets without prior approval from the Catholic bureaucracy prevented him from engaging in his studies. 
+Eventually he found a patron to support his work. This patron encouraged him to keep writing, but to keep his activities a secret. As was typical of scientists of Bacon’s era, his work included writing on a plethora of subjects including linguistics, morality, empiricism, mathematics, optics, alchemy, astronomy, and how to incorporate Aristotelian logic into theology.
+
+# The Rise of the Gentleman Scholar
+
+Of the many transformations which took place in the 15th century, three of the most significant to the history of amateur science were the invention of the printing press in 1440, the fall of Byzantium in 1453, and the discovery of the “New World'' in 1492. In each case, new ideas, new ways of thinking, and new methods for organizing society were developed, culminating in a widespread and systematic reorganization of human thought: the Scientific Revolution. 
+
+Many historians consider 1543 to be the beginning of the Scientific Revolution. Two books published that year would set off an unprecedented period of scientific development. One was *De Humani Corporis Fabrica* (On the Workings of the Human Body) by Andreas Vesalius. This work critiqued and updated the theory of anatomy proposed by Galen, the legendary physician and philosopher from Ancient Greece whose writing on anatomy had prevailed for over a century. The other was *De Revolutionibus Orbium Coelestium* (On the Revolutions of the Celestial Spheres) by Nicolaus Copernicus, which made a compelling mathematical case for heliocentrism and consequently turned the world upside with its religious implications. Luckily for Copernicus, the book was published while he was on his deathbed, which allowed him to avoid the (likely devastating) personal consequences that he would have faced from the Church for proposing the heretical theory that the Earth was not at the center of the Universe..
+
+Scientific activity proliferated and scientific discoveries accelerated rapidly over the next 100 years. In the mid-17th century, amateur scientists formed scientific academies and societies. Previously, scientific communication had largely happened privately via letters, but meeting in person had several advantages: talking in a group made it easier to keep up with the pace of discoveries, which was becoming harder to do. And due to the increasing emphasis on the empirical method, any experiment needed trustworthy witnesses to confirm the results: the higher the status of the witness, the more credible their testimony. The members of the more prestigious academies felt a need to defend their positions as the arbiters and able practitioners of the “new science.” Thus, participation in these groups was limited to “gentleman scholars,” (and their rich patrons), whose social standing and pedigree were signals of the veracity and trustworthiness of their findings.
+
+Within a few years of their formation, the academies began to collect and publish regular reports of the experiments they’d heard about in their vast network of correspondents. These reports, which were the precursor to the modern academic journal, were essentially a scientific news service, certifying, broadcasting, and archiving news about what was happening in the emerging scientific communities. These publications also engaged the public, who began to take an interest in scientific matters. Ironically the publication of scientific journals by these exclusive clubs likely had a hand in popularizing science and whetting the public’s appetite to engage in scientific experimentation. Though the members of scientific societies were also amateurs – wealthy landowners or young urban bourgeoisie who participated in science as a hobby – a hierarchy of amateurs was emerging.
+
+Throughout the 18th and 19th centuries, scientific societies spread through Europe. As they gained social prominence, they became increasingly exclusive, authoritative, and elite. The founding of the prestigious École polytechnique in Paris at the end of the 18th century represented the first monumental investment by a government in an institution that would begin to educate students in the new methods of scientific discovery. The École Polytechnique, founded during the French Revolution, was originally a technical school that trained students to become civil and military engineers. This landmark investment was an endorsement of the idea that French scientists had been pitching the government on since the founding of the Royal Society: that funding scholars who could then apply the scientific method to the problems of society could offer a significant return on investment. 
+
+Government support for the “new science” in other nations, however, was slow to emerge. Universities still largely adhered to religious doctrine, and continued on with the curriculum that had been developed in the Middle Ages. Private laboratories, gardens and museums formed to give more structure to the activities of the societies, but science remained largely in the purview of gentleman amateurs and their patrons. 
 
 
-:::{figure} static/banner.jpg
+## Case Study: Mary Anning
 
-A funny take on the difference between articles with code and articles from code.
+Mary Anning, a working class woman in Dorset, England, collected and sold fossils she found on the beach. Despite her few years of formal education, she studied all the writing on paleontology that she could find, and eventually became well known for her skill of identifying, classifying, and drawing the specimens she found. Her collection was renowned among fossil-lovers throughout England (the first complete Plesiosaurus was one of her most significant finds), including the members of the Geological Society of London, to whom she regularly sold her fossils. As a working-class woman, however, she was unable to take part in any of the activities of the society. It was not uncommon for her to sell a fossil to a member of a society who would then fail to credit her in the article he published about the specimen.
+
+# The Emergence of the Professional Scientist
+
+The beginning of the 19th century was a lively time for the growing community of middle and working class Europeans who had taken an interest in science. New societies like The Société Astronomique de France sprang up as amateur-friendly alternatives to the Royal Academies. In industrial regions of England like Manchester, working-class amateur naturalists gathered in pubs to discuss botany and zoology, and all across Europe extensive amateur meteorological observation networks sprang up, gathering data used by the emerging professional field of meteorology.
+
+It was also a time of conflict, as amateur scientists began to push back against the limitations that both governments and scientific societies imposed. Amateur astronomers in France argued for a more democratic approach to astronomy, allowing for wider public involvement in research through activities like tracking meteor showers, and amateur archaeologists in Germany, Prussia, and France organized to protest legislation that required permits for excavations, limiting the freedom to study ancient archaeological sites. 
+
+Trained scientists were also beginning to chafe against the academies’ control over funding and the production of knowledge. Societies like the British Association for the Advancement of Science coordinated scientists nationwide and lobbied governments for funding and recognition, attempting to transform science from an activity for wealthy hobbyists to a government-funded professional institution whose advances could be systematized and applied for the benefit of society. 
+
+Their petitions worked – increases in the institutional support for science led to the creation of more technical schools, and to government scientific agencies like geological surveys, physics labs and health institutes. The first modern PhD programs, in which professors were expected to train their students to produce independent research while conducting their own research, were established in Germany in the early 19th century. Scientific disciplines continued to organize into specialized departments, schools, and journals. By the late 19th century, most scientists worked in academic or government settings, not as independent gentlemen. 
+
+The changes in scientific institutions that occurred in the 19th century reflect the social and material transformations caused by the Industrial Revolution. The stark and growing divisions between socioeconomic classes and the miraculous possibilities of the machine age that co-occurred initiated an ongoing public debate about social inequality and the distribution of power and resources in society. Many people saw science and technology as tools that could be used to address social inequality, but opinions differed widely on the best way to apply them. 
+
+# Big Science: The Last 100 Years
+
+Over the previous 300 years, science had become indispensable to the functioning of the modern world, but it had also become increasingly tied to, and reliant on, political and economic power structures. Throughout the 20th century scientific institutions became increasingly intertwined with government and industry. Funding for science in this period was abundant but increasingly focused on applied research, which was becoming more specialized.
+The 20th century also witnessed the escalating influence of science and industry on world events. The First World War intensified the development of research to advance military capability, spurring massive projects like the Manhattan Project for the atomic bomb and later the space race, projects which proved instrumental in the outcomes of World War II and the Cold War era, respectively. Scientific research became a strategic imperative leveraged by governments worldwide; many countries formally institutionalized science as a national priority, establishing dedicated policy bodies like the U.S. National Science Foundation in 1950. 
+
+The growth of research in government, private and academic settings accelerated the institutionalization of science, and led to a steady decline in the popularity of amateur science. Our research into worldwide patent applications over the course of the 20th century illustrates this shift. Fig. 1 highlights the relative proportion of patent applications filed by private companies, public research centers, and universities, as compared to patent applications filed by individual researchers. The steady increase in applications by institutions, and the decrease in applications filed by solo inventors, continues nearly unbroken for over 100 years.
+
+:::{iframe} https://chart-studio.plotly.com/~janeabdo/37.embed
+:width: 100% 
+:height: 600px 
+:align: center 
+
+Worldwide patent applications classification 
 :::
 
-Let's see how directives work with a simple example by rendering a video from an external source:
+Relative proportion of worldwide patent applications classified by research/company and solo inventor from 1910 to 2023. The data shows an initial predominance of Solo Inventor patents and the steady increase of Research/Company patents during the mid-20th century, showing the professionalization of science. Source: WIPO Patentscope. See Appendix A for more detail on the methodology used. 
 
-:::{iframe} https://cdn.curvenote.com/0191bd75-1494-72f5-b48a-a0aaad296e4c/public/links-8237f1bb937ea247c2875ad14e560512.mp4
-:label: figvid
+Though the scientific institutions of the 20th century had become more open to women and ethnic minorities, amateurs were more marginalized than ever. A few fields maintained a role for amateur involvement: astronomers and naturalists in particular continued making new discoveries in their fields, and tinkering with radio and electrical systems in home workshops was a popular hobby for many amateur inventors. But compared to professional scientists, amateur research was given little credit or legitimacy during this period, and the tools needed to conduct cutting-edge research in many fields were totally inaccessible to the lay public
+
+# The Rebirth of Amateur Science
+
+Big science continued to expand through the second half of the 20th century, but several social and political movements that focused on the lack of public involvement in science policy forced scientific institutions to accept more input from the public on research agendas. The environmental movement, the anti-nuclear movement, and HIV/AIDS activists all fought to create ways to involve the public in setting priorities for scientific research and assessing the risks of new technologies. These groups demanded more oversight over scientific research, more public buy-in, more communication, and more decision making power for the people impacted by new scientific products. AIDS activists, for example, became well-versed in the drug development process and successfully argued for changes to the FDA’s policies on testing and distributing experimental treatments. They also demanded changes to the conditions in which clinical tests were carried out, lobbied the CDC to broaden the definition of AIDS to include symptoms and outcomes that were more commonly diagnosed in women, and helped found alternative research facilities such as Boston’s Community Research Initiative (1987). 
+
+Though these movements failed to significantly alter the broader structures underlying scientific establishments, they did serve to empower amateurs and activists, giving rise to the citizen science movement, a massive network of amateurs engaged in data collection and analysis on a staggering scale. Amateur engagement through field observation and data collection have existed for over a century, particularly in the environmental sciences and astronomy, but the development of digital technology in recent decades has made it possible to efficiently collect and process data from tens of thousands of citizen scientists, further expanding the possibilities of big science. More recently citizen science has expanded into fields like social science and health.
+
+## Case Study: Aella
+
+Aella (a pseudonym) is a well-known writer and sex researcher. She is unique, even among amateur scientists, for her lack of formal education. She grew up in rural Idaho, where she was homeschooled, and attended college for one semester before dropping out. She has never taken a college-level science class, and her knowledge of data collection, data analysis, survey design and psychology is entirely self-taught. She has a community of friends (many of whom are trained statisticians and engineers) who can answer questions and offer feedback about her work. In 2022 she published a survey about sexual fetishes and kinks that now has over 600,000 responses, making it one of the largest (if not the largest) surveys of its kind ever done. She has done studies on a wide array of subjects, including categories of enlightenment, relationship types, and social taboos. She publishes her findings and makes her data available to all on her Substack. 
+
+## Case Study: The Four Thieves Vinegar Collective
+
+The Four Thieves Vinegar collective was founded in 2015 with the goal of increasing access to essential generic medications like insulin and epinephrine by producing them using DIY techniques. Named after a legend about a group of medical students who broke into pharmacies to redistribute medicine to the poor, the decentralized collective aims to make medications affordable by developing open source protocols for safely synthesizing drugs at home. Their first major project was developing an open source recipe for Daraprim, an AIDS medication whose price was controversially raised over 50-fold in 2015. The following year, when the pharmaceutical company Mylan raised the price of EpiPens from $57 to $318, they published DIY instructions for a $30 "EpiPencil" autoinjector that could be easily made at home using common materials. By publicizing alternative production methods, the collective hopes to undermine monopolies and empower patients worldwide through decentralizing pharmaceutical production.
+
+## Case Study: Slime Mold Time Mold
+
+This pseudonymous collective of scientists has been writing a blog about nutrition and the obesity epidemic since 2020. Though they haven’t publicly identified as either amateurs or academics (“There isn’t one single answer for our background, because we are a hive mind/collaboration”), their articles feature collaborations and exchanges with amateurs and academics alike. In 2022 they recruited over 200 people to take part in the “All-Potato Diet,” in an effort to find evidence for their theory on the role of lithium in the obesity epidemic. 64 participants finished the month-long experiment. The results of the experiment, and a six-month follow-up, can be found on their blog. 
+
+When asked in an interview what kind of impact they hope to make with their research, they wrote: 
+We’d like science to be more diverse — more kinds of people, doing more kinds of science, using more kinds of methods and paradigms, in more kinds of communities and institutions, and communicating their work in more and more different ways. We also want to usher in a 21st century scientific revolution. Ambitious research is possible, both inside and outside of institutions. We’d like this to be our impact, but also it doesn’t really matter since we think that at some level this is inevitable. Authority is brittle, it requires constant attention — the natural state of science is chaos. 
+
+# Conclusion
+
+*21st Century Science*
+
+Since the 1980s and the beginning of home computing, new technologies have allowed amateurs to participate once again in many scientific fields through large-scale crowdsourcing, citizen science projects, and open online collaborations between amateurs and professionals. It’s possible that we’re entering a new era, where the new tools for collecting, storing, analyzing, and displaying data, and for funding and publishing research make scientific research accessible to the public in new ways.  Many of these tools and platforms have been created as a part of the Open Access and Decentralized Science (or DeSci) movements.
+
+The Open Access movement began around 2000 with the goal of making scientific knowledge more accessible to all. Early Open Access pioneers created new journals that didn’t have paywalls, removing the financial and institutional barriers that prevented non-professionals from accessing new scientific literature. However, these publications supplemented their lost income from subscriptions by instituting large fees for authors and institutions, merely moving the cost of access to the scientists and institutions looking to publish. A new movement, known as Diamond or Platinum Open Access emerged in the 2010s, and used institutional funding and volunteer labor to create publishing platforms for scientific research that were free for both researchers and readers. 
+
+DeSci is a new set of methods for doing scientific research that doesn't rely on traditional centralized institutions like universities or government labs. Instead, it leverages distributed networks, open collaborations, and decentralized technologies to democratize access, enable global participation, and facilitate peer-to-peer validation of scientific claims and data. Desci aims to accelerate scientific progress by removing barriers, increasing transparency, and incentivizing contributions from a broader pool of researchers and citizen scientists worldwide. It uses decentralized autonomous organizations (DAOs), open science frameworks, and web3 technologies. These decentralized blockchain-based protocols allow researchers to self-organize into projects, validate each other's work through peer review, and get funding from distributed sources. 
+
+As we enter the 21st century, powerful new technological tools and the emergence of innovations in the field of open science offer amateurs perhaps the greatest opportunity since the Scientific Revolution to directly participate in expanding the frontiers of knowledge. Just outside the gates of big science, where scores of professionals conduct their research under the purview of governments, universities, and corporations, there are countless amateurs, conducting their own research and contributing to the dream of a more democratic, decentralized science. 
+
+:::{iframe} https://janeabdo.github.io/carousel/
 :width: 100%
-
-Video reused from [mystmd.org](https://mystmd.org) (CC-BY-4.0, [source](https://mystmd.org/guide)).
-:::
-
-Yet, the main purpose of this article is to not to showcase all the [authoring tools](https://mystmd.org/guide/typography) available in MyST Markdown, but rather to provide a simple template to get you started with your own article to publish on NeuroLibre.
-
-
-:::{seealso}
-You can refer to the [MyST Guide](https://mystmd.org/guide/typography) to see all the cool stuff you can do with MyST Markdown, such as creating a `mermaid` diagram like this:
-
-```{mermaid}
-flowchart LR
-  A[Jupyter Notebook] --> C
-  B[MyST Markdown] --> C
-  C(mystmd) --> D{AST}
-  D <--> E[LaTeX]
-  E --> F[PDF]
-  D --> G[Word]
-  D --> H[React]
-  D --> I[HTML]
-  D <--> J[JATS]
-```
-
-Or you can see how hover-over links work for [wikipedia sources](https://en.wikipedia.org/wiki/Wikipedia#:~:text=Wikipedia%20is%20a%20free%20content,and%20the%20wiki%20software%20MediaWiki.) and cross references figures (e.g., [Fig. %sf](#fig1), [Figure %sf](#fig2), [Video %sf](#figvid)).
-:::
-
-Typically, when publishing an article following the traditional route, you would write your article in a word processor where you need to deal with the generation of figures, tables etc. elsewhere, and then bring them together in the final document manually. This eventually leads to a cluttered set of files, code, dependencies, and even data that are hard to manage in the long run. If you've been publishing articles for a while, you probably know what we are talking about:
-
-> Where is the endnote reference folder I used for this article?
-
-> What is the name of the script I used to generate the second figure? This script has the title `fig_2_working.py` and is in the  `karakuzu_et_al_2016_mrm` folder, but it does not seem to be the one that generated the figure...
-
-> I cannot create the same runtime environment that I used for this analysis in my current project because `python 3.8` is not available in the current distribution of Anaconda... It is so tricky to get this running on my new computer...
-
-MyST Markdown offers a powerful solution to this by allowing you to create an article ✨from code✨, linking all the pieces of your executable and narrative content together in the body of this one document: your canvas.
-
-:::{figure} https://cdn.curvenote.com/0191bd75-1494-72f5-b48a-a0aaad296e4c/public/reuse-jupyter-output-2e6bfa91772dbb6bbc022dc6aee80d2b.webp
-:label: fig0
-
-An article with two figures created in Jupyter Notebooks. Each figure can be labeled directly in the notebook and reused in any other page directly.
-
-Figure reused from [mystmd.org](https://mystmd.org) (CC-BY-4.0, [source](https://mystmd.org/guide/reuse-jupyter-outputs#reuse-jupyter-outputs)).
-:::
-
-
-
-For example, the following figure is the output of the `content/fig_1.ipynb` notebook:
-
-:::{figure} #fig1cell
-:label: fig1
-
-An example of a figure generated from a Jupyter Notebook that lives in the `content` folder of this repository. Check `content/figure_1.ipynb` to see how this figure was generated and where the label `#fig1cell` is defined.
-:::
-
-Here is another figure generated from another notebook:
-
-:::{figure} #fig2cell
 :label: fig2
 
-An example of a figure generated from a Jupyter Notebook that lives in the `content` folder of this repository.  Check `content/figure_1.ipynb` to see how this figure was generated and where the label `#fig2cell` is defined.
+
+An interactive timeline of amateur science through history.
 :::
 
-Both interactive, cool right! All your assets are centralized in this one document, which ideally lives in a GitHub repository. You may forget what you did, but your commit history will be there to remind you.
+**Appendix A**
 
-## NeuroLibre and MyST Markdown
+The dataset in Fig. 1 was obtained by web scraping the WIPO PatentScope website from 1910 to 2023. For each year we scraped the first 99 pages from the database each year (~200 patents per page), creating a sample of around 19,800 patents per year before cleaning and preprocessing. Patents were sorted using the "Relevance" criterion, an algorithm applied to keyword searches (see Guide: https://patentscope.wipo.int/search/help/en/BM25scoring.pdf). As no keywords were searched (only the publication year), the displayed patents are considered to be randomly sampled. Due to computational constraints, patents were scraped without delving into each individual patent. This approach limited the extraction of fields such as “Applicant” and “Inventor” to only the first row, possibly causing the observed fluctuations during the years 2010–2017. Patents were classified into three types: Solo Inventor, Research/Company, or Other.  These fields usually appear in the first row of the patent description. If this wasn't the case, or if the classification was unclear, the patent was Other patents, typically unclear, were omitted from the analysis. Research/Company patents included applicants from private industries, research centers, and universities, while Solo Inventor patents had individuals as applicants. The relative proportions of the two patent types were calculated for each year and displayed as stacked bars using the Plotly Express library in Python. 
 
-NeuroLibre is a reproducible preprint publisher that makes it a seamless experience to publish preprints written in MyST Markdown, and commits to the long term preservation of the content, runtime, data, and the functionality of the code.
+Here’s a more detailed breakdown of the method for assigning patents to each category:  
 
-:::{seealso}
-You can refer to [this blogpost](https://conp.ca/about-neurolibre/#:~:text=NeuroLibre%20is%20a%20platform%20for,articles%2C%20tutorials%2C%20and%20reports) for more information about NeuroLibre.
-:::
+If both "Applicant" and "Solo Inventor" fields are present:
 
-### Data
+-If "Applicant" contains research/company terms, assign as “Research/Company”.
 
-Unless your preprint does not include any output that requires computational resources, you typically need to provide a set of inputs to supplement the generation of the assets in your article. The type and size of the data can vary greatly from one article to another, from a `50KB` excel spreadsheet to a `2GB` neuroimaging dataset of brain images.
+-If "Applicant" is also in "Inventor," assign as “Solo Inventor”.
 
-The only requirement is that the data must be publicly available to be accessed by NeuroLibre. To specify your data dependencies, you can provide a `binder/data_requirement.json` file in the root of your repository, with the following structure:
+-Otherwise, assign as “Other”.
 
-```json
-{
-  { "src": "https://drive.google.com/uc?id=1hOohYO0ifFD-sKN_KPPXOgdQpNQaThiJ",
-  "dst": "../data",
-  "projectName": "neurolibre-demo-dataset"
-  }
-}
-```
+If "Inventor" field is missing:
 
-:::{note}
-The above configuration specifies that the data will be downloaded from Google Drive and placed in and saved in a `data/neurolibre-demo-dataset` at the root of your repository. The `dst` field indicates `../data` as the root of the repository is one directory up from the `binder` directory where the `data_requirement.json` file is located.
+-If "Applicant" contains research/company terms, assign as Research/Company.
 
-Even when the `dst` field is specified differently, NeuroLibre will always mount the data in the `data` folder at the root of your repository. We recommend you to follow the same convention while working locally and to remember to `.gitignore` the `data` folder!
-:::
+-Otherwise, assign as “Other”.
 
-:::{seealso}
-You can refer to [this documentation](https://docs.neurolibre.org/en/latest/STRUCTURE.html#the-binder-folder-data) for more information about the `binder/data_requirement.json` file and the available options to specify your data dependencies.
-:::
+If "Applicant" field is missing, assign as “Solo Inventor”.
 
-#### How can I get NeuroLibre to cache my data dependencies? 
+**References**
 
-You can use [this issue template](https://github.com/neurolibre/info/issues/new?assignees=agahkarakuzu&labels=DOWNLOAD&projects=&template=data_cache.md&title=) to request the caching of your data dependencies.
+Price, D. (1963). *Little Science, Big Science.* New York Chichester, West Sussex: Columbia University Press. [https://doi.org/10.7312/pric91844](https://doi.org/10.7312/pric91844)  
+AccessHealth MA (formerly Community Research Initiative CRI). (2022, June 14). *History | AccessHealth MA l CRI*. AccessHealth MA L CRI. [https://accesshealthma.org/about-accesshealthma/history/](https://accesshealthma.org/about-accesshealthma/history/)  
+Advanced Research and Invention Agency (ARIA): policy statement. (2022, July 19). GOV.UK. [https://www.gov.uk/government/publications/advanced-research-and-invention-agency-aria-statement-of-policy-intent/advanced-research-and-invention-agency-aria-policy-statement](https://www.gov.uk/government/publications/advanced-research-and-invention-agency-aria-statement-of-policy-intent/advanced-research-and-invention-agency-aria-policy-statement)  
+Aella. (2001, September 19). *Knowingless | Aella | Substack*. Knowingless. [https://aella.substack.com/](https://aella.substack.com/)  
+Anonymous. (2023, September 7). *SLIME MOLD TIME MOLD*. SLIME MOLD TIME MOLD. [https://slimemoldtimemold.com/](https://slimemoldtimemold.com/)  
+Bonney, R., Shirk, J., Phillips, T., Wiggins, A., Ballard, H. L., Miller-Rushing, A. J., & Parrish, J. K. (2014). *Next steps for citizen science.* Science, 343(6178), 1436–1437. [https://doi.org/10.1126/science.1251554](https://doi.org/10.1126/science.1251554)  
+Bowler, P. J., & Morus, I. R. (2020). *Making Modern Science, second edition.* University of Chicago Press.  
+De Solla Price, D. J. (1963). *Little science, big science.*  
+Ethereum. (n.d.). *Decentralized science (DeSci) | ethereum.org*. ethereum.org. [https://ethereum.org/en/desci/#further-reading](https://ethereum.org/en/desci/#further-reading)  
+Federation of American Scientists. (2023, June 15). *Focused Research Organizations: A new model for Scientific research - Federation of American Scientists.* [https://fas.org/publication/focused-research-organizations-a-new-model-for-scientific-research/](https://fas.org/publication/focused-research-organizations-a-new-model-for-scientific-research/)  
+Four Thieves Vinegar Collective – Harm reduction for the living. (n.d.). [https://fourthievesvinegar.org/](https://fourthievesvinegar.org/)  
+Grantham, G. (2011). *The Institutionalization of Science in Europe, 1650–1850.* In Stanford University Press eBooks (pp. 51–85). [https://doi.org/10.11126/stanford/9780804771856.003.0003](https://doi.org/10.11126/stanford/9780804771856.003.0003)  
+Guillemain, H., & Richard, N. (2016). *Introduction. Towards a Contemporary Historiography of Amateurs in Science (18th–20th Century).* Gesnerus, 73(2), 201–237.  
+Guzey, A. (2019, August 15). *How Life Sciences Actually Work: Findings of A Year-Long Investigation.* Alexey Guzey. [https://guzey.com/how-life-sciences-actually-work/](https://guzey.com/how-life-sciences-actually-work/)  
+Hackett, Jeremiah. “Roger Bacon.” *The Stanford Encyclopedia of Philosophy*, Spring 2022 ed., Metaphysics Research Lab, Stanford University. [https://plato.stanford.edu/archives/sum2020/entries/roger-bacon/](https://plato.stanford.edu/archives/sum2020/entries/roger-bacon/)  
+Kraut, Richard. “Plato.” *The Stanford Encyclopedia of Philosophy*, Spring 2022 ed., Metaphysics Research Lab, Stanford University. [https://plato.stanford.edu/archives/spr2022/entries/plato/](https://plato.stanford.edu/archives/spr2022/entries/plato/)  
+Lingelbach, G. (2011). *The institutionalization and professionalization of history in Europe and the United States.* In Oxford University Press eBooks (pp. 78–96). [https://doi.org/10.1093/acprof:osobl/9780199533091.003.0005](https://doi.org/10.1093/acprof:osobl/9780199533091.003.0005)  
+Mims, F. M. (1999). *Amateur Science--Strong tradition, bright future.* Science, 284(5411), 55–56. [https://doi.org/10.1126/science.284.5411.55](https://doi.org/10.1126/science.284.5411.55)  
+Mohlhenrich, E. R., & Krpan, D. (2022). *Amateur hour: Improving knowledge diversity in psychological and behavioral science by harnessing contributions from amateurs.* New Ideas in Psychology, 65, 100922. [https://doi.org/10.1016/j.newideapsych.2021.100922](https://doi.org/10.1016/j.newideapsych.2021.100922)  
+Oberhaus, D. (2018, July 26). *Meet the Anarchists Making Their Own Medicine.* Vice. [https://www.vice.com/en/article/43pngb/how-to-make-your-own-medicine-four-thieves-vinegar-collective](https://www.vice.com/en/article/43pngb/how-to-make-your-own-medicine-four-thieves-vinegar-collective)  
+Olby, R. (2023, September 8). *Gregor Mendel | Biography, Experiments, & Facts.* Encyclopedia Britannica. [https://www.britannica.com/biography/Gregor-Mendel](https://www.britannica.com/biography/Gregor-Mendel)  
+Rafferty, J. P. (2023a, August 29). *Mary Anning | Biography & Facts.* Encyclopedia Britannica. [https://www.britannica.com/biography/Mary-Anning](https://www.britannica.com/biography/Mary-Anning)  
+Shields, Christopher. “Aristotle.” *The Stanford Encyclopedia of Philosophy*, Spring 2022 ed., Metaphysics Research Lab, Stanford University. [https://plato.stanford.edu/archives/spr2022/entries/aristotle/](https://plato.stanford.edu/archives/spr2022/entries/aristotle/)  
+Thompson, D. (2021, November 5). *America needs a new scientific revolution.* The Atlantic. [https://www.theatlantic.com/ideas/archive/2021/11/grants-american-scientific-revolution/620609/](https://www.theatlantic.com/ideas/archive/2021/11/grants-american-scientific-revolution/620609/)  
+Thompson, D. (2022, May 10). *Silicon Valley’s new obsession: science funding.* The Atlantic. [https://www.theatlantic.com/ideas/archive/2022/01/scientific-funding-is-broken-can-silicon-valley-fix-it/621295/](https://www.theatlantic.com/ideas/archive/2022/01/scientific-funding-is-broken-can-silicon-valley-fix-it/621295/)  
+Williams, L. P. (2000, January 12). *History of science | Definition, Natural Philosophy, & Development of Science.* Encyclopedia Britannica. [https://www.britannica.com/science/history-of-science](https://www.britannica.com/science/history-of-science)  
+World History Encyclopedia. (n.d.). *Science Timeline - World History Encyclopedia.* [https://www.worldhistory.org/timeline/science/](https://www.worldhistory.org/timeline/science/)  
 
-### Code 
-
-NeuroLibre follows the [reproducible runtime environment specification (REES)](https://repo2docker.readthedocs.io/en/latest/specification.html) to define a runtime environment for your preprint. Any programming language supported by Project Jupyter (e.g. python, R, julia, etc.) can be used to create your executable content, where you place necessary [BinderHub configuration files](https://mybinder.readthedocs.io/en/latest/using/config_files.html#config-files) in the `binder` folder.
-
-#### How much computational resources are available and for how long my notebooks can run to generate the outputs?
-
-For each preprint, we guarantee a minimum of 1 CPU core and 4 GB of RAM (8GB maximum), and a maximum of 1 hours of runtime to execute all the notebooks in the `content` folder.
-
-> Do you really want someone to run your code for 1 hour? Probably not.
-
-Even though long-running code cells may be of interest to interactive tutorials, a reader who is interested in reproducing your Figure would be less likely to wait for more than a few minutes for the outputs to be generated. This is why we encourage you to create notebooks that can be run in the "attention span" of a reader.
-
-### Preview your preprint
-
-#### Locally
-
-It is always a good practice to be able to build your MyST article locally before publishing it to NeuroLibre. If you install MyST as described [here](https://mystmd.org/guide/installing), in a virtual environment that has all your code dependencies installed, you can build your myst article:
-
-```bash
-cd path/to/your/repo
-myst build --execute --html
-```
-
-:::{note}
-NeuroLibre also supports Jupyter Book for publishing preprints. You can refer to [this documentation](https://jupyterbook.org/en/stable/intro.html) to find out more about it. However, as of late 2024, MyST is our recommended route for writing preprints.
-:::
-
-#### Roboneuro preview service
-
-If you have a data dependency and have NeuroLibre cached it for you, you can start using the Roboneuro preview service to build your preprint: https://robo.neurolibre.org
-
-#### Technical screening
-
-Once you submit your preprint to NeuroLibre, our team will perform a technical screening to ensure that your preprint can be built successfully. This is to make sure that your preprint is in line with our guidelines and to avoid any issues that may arise during the build process.
-
-You can visit our technical screening repository [neurolibre/neurolibre-reviews](https://github.com/neurolibre/neurolibre-reviews/issues) to see examples of this process.
-
-### After your preprint is published
-
-We archive all the reproducibility assets of your preprint on Zenodo and link those objects to your reproducible preprint that is assigned a DOI and indexed by [Crossref](https://www.crossref.org/) (also by Google Scholar, Researchgate, and other platforms that use Crossref metadata).
-
-Your preprint can be found, cited, and more importantly, reproduced by any interested reader, and that includes you (probably a few years after you published your preprint)!
-
-### Is the idea of wanting to publish a dashboard with your preprint too crazy?
-
-Absolutely not! We encourage you to publish your dashboard alongside your preprint to showcase your results in the best way possible.
-
-:::: {admonition} An interactive dashboard developed with R Shiny
-:class: tip
-:::{iframe} https://shinybrain.db.neurolibre.org
-:width: 100%
-:label: intdashboard
-:align: center
-
-MRShiny Brain interactive dashboard at [https://shinybrain.db.neurolibre.org](https://shinybrain.db.neurolibre.org)
-:::
-::::
-
-:::: {admonition} An award-winning dashboard developed using Plotly Dash
-:class: tip
-:::{iframe} https://rrsg2020.db.neurolibre.org/
-:width: 100%
-:label: intdashboard
-:align: center
-
-ISMRM RRSG 2020 interactive dashboard at [https://rrsg2020.db.neurolibre.org/](https://rrsg2020.db.neurolibre.org/)
-:::
-::::
-
-These dashboards are embedded in their respective NeuroLibre preprints! If you are interested in publishing your own dashboard with NeuroLibre, please open an issue using [this template](https://github.com/neurolibre/info/issues/new?assignees=agahkarakuzu&labels=dashboard&projects=&template=new_dashboard.md&title=%5BNEW+DASHBOARD%5D).
-
-If you have any questions or need further assistance, please reach out to us at `info@neurolibre.org`.

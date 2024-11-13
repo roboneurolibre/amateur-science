@@ -1,27 +1,22 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  title: 'Demystifying MyST: The most powerful preprint authoring tool'
-  subtitle: A template for reproducible preprints
+  title: 'Little Science, Big Science, and Beyond: How Amateurs Shape the Scientific Landscape'
   thebe:
     binder:
       url: https://binder-preview.conp.cloud
-      repo: neurolibre/mystical-article
+      repo: agahkarakuzu/amateur-science
       ref: HEAD
   authors:
-    - name: Agah Karakuzu
-      orcid: 0000-0001-7283-271X
+    - name: Jane Abdo
       affiliations:
         - NeuroPoly, Polytechnique Montreal, Quebec, Canada
-        - Montreal Heart Institute, Montreal, Quebec, Canada
-    - name: Robo Neuro
+    - name: Nikola Stikov
       affiliations:
-        - NeuroLibre, Montreal, Quebec, Canada
+        - NeuroPoly, Polytechnique Montreal, Quebec, Canada
   keywords:
-    - reproducible publishing
-    - mystmd
-    - next-gen preprints
-  github: https://github.com/neurolibre/mystical-article
+    - amateur science
+  github: https://github.com/agahkarakuzu/amateur-science
   banner: static/banner.jpg
   venue: Neurolibre
   subject: Living Preprint
@@ -36,16 +31,5 @@ project:
     - paper.bib
   resources:
     - content/figure1.ipynb
-    - content/figure2.ipynb
 site:
   template: article-theme
-
-neurolibre:
-  rees:
-    runtime:
-      - name: neurolibre/mystical-article
-        ref: 43aff5ae300e0a3108710290871703bb22a3e29f
-    data:
-      - src: https://raw.githubusercontent.com/plotly/datasets/master/hobbs-pearson-trials.csv
-        dst: ../data
-        projectName: neurolibre-demo-dataset
