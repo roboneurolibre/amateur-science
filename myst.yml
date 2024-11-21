@@ -8,9 +8,15 @@ project:
       repo: agahkarakuzu/amateur-science
       ref: HEAD
   authors:
+      - name: Evelyn McLean
+      affiliations:
+        - TBE
     - name: Jane Abdo
       affiliations:
         - NeuroPoly, Polytechnique Montreal, Quebec, Canada
+    - name: Nadia Blostein
+      affiliations:
+        - NeuroPoly, Polytechnique Montreal, Quebec, Canada     
     - name: Nikola Stikov
       affiliations:
         - NeuroPoly, Polytechnique Montreal, Quebec, Canada
