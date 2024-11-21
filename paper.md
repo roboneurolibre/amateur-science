@@ -197,33 +197,3 @@ flowchart TD
     ApplicantContainsTerms -- "No" --> AssignOther3["Assign as 'Other'"]
 ```
 :::
-
-**References**
-
-AccessHealth MA (formerly Community Research Initiative CRI). (2022, June 14). *History | AccessHealth MA l CRI*. AccessHealth MA L CRI. [https://accesshealthma.org/about-accesshealthma/history/](https://accesshealthma.org/about-accesshealthma/history/)  
-Advanced Research and Invention Agency (ARIA): policy statement. (2022, July 19). GOV.UK. [https://www.gov.uk/government/publications/advanced-research-and-invention-agency-aria-statement-of-policy-intent/advanced-research-and-invention-agency-aria-policy-statement](https://www.gov.uk/government/publications/advanced-research-and-invention-agency-aria-statement-of-policy-intent/advanced-research-and-invention-agency-aria-policy-statement)  
-Aella. (2001, September 19). *Knowingless | Aella | Substack*. Knowingless. [https://aella.substack.com/](https://aella.substack.com/)  
-Anonymous. (2023, September 7). *SLIME MOLD TIME MOLD*. SLIME MOLD TIME MOLD. [https://slimemoldtimemold.com/](https://slimemoldtimemold.com/)  
-Bonney, R., Shirk, J., Phillips, T., Wiggins, A., Ballard, H. L., Miller-Rushing, A. J., & Parrish, J. K. (2014). *Next steps for citizen science.* Science, 343(6178), 1436–1437. [https://doi.org/10.1126/science.1251554](https://doi.org/10.1126/science.1251554)  
-Bowler, P. J., & Morus, I. R. (2020). *Making Modern Science, second edition.* University of Chicago Press.  
-De Solla Price, D. J. (1963). *Little science, big science.*  
-Ethereum. (n.d.). *Decentralized science (DeSci) | ethereum.org*. ethereum.org. [https://ethereum.org/en/desci/#further-reading](https://ethereum.org/en/desci/#further-reading)  
-Federation of American Scientists. (2023, June 15). *Focused Research Organizations: A new model for Scientific research - Federation of American Scientists.* [https://fas.org/publication/focused-research-organizations-a-new-model-for-scientific-research/](https://fas.org/publication/focused-research-organizations-a-new-model-for-scientific-research/)  
-Four Thieves Vinegar Collective – Harm reduction for the living. (n.d.). [https://fourthievesvinegar.org/](https://fourthievesvinegar.org/)  
-Grantham, G. (2011). *The Institutionalization of Science in Europe, 1650–1850.* In Stanford University Press eBooks (pp. 51–85). [https://doi.org/10.11126/stanford/9780804771856.003.0003](https://doi.org/10.11126/stanford/9780804771856.003.0003)  
-Guillemain, H., & Richard, N. (2016). *Introduction. Towards a Contemporary Historiography of Amateurs in Science (18th–20th Century).* Gesnerus, 73(2), 201–237.  
-Guzey, A. (2019, August 15). *How Life Sciences Actually Work: Findings of A Year-Long Investigation.* Alexey Guzey. [https://guzey.com/how-life-sciences-actually-work/](https://guzey.com/how-life-sciences-actually-work/)  
-Hackett, Jeremiah. “Roger Bacon.” *The Stanford Encyclopedia of Philosophy*, Spring 2022 ed., Metaphysics Research Lab, Stanford University. [https://plato.stanford.edu/archives/sum2020/entries/roger-bacon/](https://plato.stanford.edu/archives/sum2020/entries/roger-bacon/)  
-Kraut, Richard. “Plato.” *The Stanford Encyclopedia of Philosophy*, Spring 2022 ed., Metaphysics Research Lab, Stanford University. [https://plato.stanford.edu/archives/spr2022/entries/plato/](https://plato.stanford.edu/archives/spr2022/entries/plato/)  
-Lingelbach, G. (2011). *The institutionalization and professionalization of history in Europe and the United States.* In Oxford University Press eBooks (pp. 78–96). [https://doi.org/10.1093/acprof:osobl/9780199533091.003.0005](https://doi.org/10.1093/acprof:osobl/9780199533091.003.0005)  
-Mims, F. M. (1999). *Amateur Science--Strong tradition, bright future.* Science, 284(5411), 55–56. [https://doi.org/10.1126/science.284.5411.55](https://doi.org/10.1126/science.284.5411.55)  
-Mohlhenrich, E. R., & Krpan, D. (2022). *Amateur hour: Improving knowledge diversity in psychological and behavioral science by harnessing contributions from amateurs.* New Ideas in Psychology, 65, 100922. [https://doi.org/10.1016/j.newideapsych.2021.100922](https://doi.org/10.1016/j.newideapsych.2021.100922)  
-Oberhaus, D. (2018, July 26). *Meet the Anarchists Making Their Own Medicine.* Vice. [https://www.vice.com/en/article/43pngb/how-to-make-your-own-medicine-four-thieves-vinegar-collective](https://www.vice.com/en/article/43pngb/how-to-make-your-own-medicine-four-thieves-vinegar-collective)  
-Olby, R. (2023, September 8). *Gregor Mendel | Biography, Experiments, & Facts.* Encyclopedia Britannica. [https://www.britannica.com/biography/Gregor-Mendel](https://www.britannica.com/biography/Gregor-Mendel)  
-Rafferty, J. P. (2023a, August 29). *Mary Anning | Biography & Facts.* Encyclopedia Britannica. [https://www.britannica.com/biography/Mary-Anning](https://www.britannica.com/biography/Mary-Anning)  
-Shields, Christopher. “Aristotle.” *The Stanford Encyclopedia of Philosophy*, Spring 2022 ed., Metaphysics Research Lab, Stanford University. [https://plato.stanford.edu/archives/spr2022/entries/aristotle/](https://plato.stanford.edu/archives/spr2022/entries/aristotle/)  
-Thompson, D. (2021, November 5). *America needs a new scientific revolution.* The Atlantic. [https://www.theatlantic.com/ideas/archive/2021/11/grants-american-scientific-revolution/620609/](https://www.theatlantic.com/ideas/archive/2021/11/grants-american-scientific-revolution/620609/)  
-Thompson, D. (2022, May 10). *Silicon Valley’s new obsession: science funding.* The Atlantic. [https://www.theatlantic.com/ideas/archive/2022/01/scientific-funding-is-broken-can-silicon-valley-fix-it/621295/](https://www.theatlantic.com/ideas/archive/2022/01/scientific-funding-is-broken-can-silicon-valley-fix-it/621295/)  
-Williams, L. P. (2000, January 12). *History of science | Definition, Natural Philosophy, & Development of Science.* Encyclopedia Britannica. [https://www.britannica.com/science/history-of-science](https://www.britannica.com/science/history-of-science)  
-World History Encyclopedia. (n.d.). *Science Timeline - World History Encyclopedia.* [https://www.worldhistory.org/timeline/science/](https://www.worldhistory.org/timeline/science/)  
-
