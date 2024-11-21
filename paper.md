@@ -149,6 +149,12 @@ The Open Access movement began around 2000 with the goal of making scientific kn
 
 DeSci is a new set of methods for doing scientific research that doesn't rely on traditional centralized institutions like universities or government labs. Instead, it leverages distributed networks, open collaborations, and decentralized technologies to democratize access, enable global participation, and facilitate peer-to-peer validation of scientific claims and data. Desci aims to accelerate scientific progress by removing barriers, increasing transparency, and incentivizing contributions from a broader pool of researchers and citizen scientists worldwide. It uses decentralized autonomous organizations (DAOs), open science frameworks, and web3 technologies. These decentralized blockchain-based protocols allow researchers to self-organize into projects, validate each other's work through peer review, and get funding from distributed sources. 
 
+:::{figure} static/figstat.png
+:label: figstat
+
+Timeline of amateur science through history.
+:::
+
 As we enter the 21st century, powerful new technological tools and the emergence of innovations in the field of open science offer amateurs perhaps the greatest opportunity since the Scientific Revolution to directly participate in expanding the frontiers of knowledge. Just outside the gates of big science, where scores of professionals conduct their research under the purview of governments, universities, and corporations, there are countless amateurs, conducting their own research and contributing to the dream of a more democratic, decentralized science. 
 
 :::{iframe} https://janeabdo.github.io/carousel/
