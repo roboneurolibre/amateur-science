@@ -8,7 +8,7 @@ project:
       repo: agahkarakuzu/amateur-science
       ref: HEAD
   authors:
-      - name: Evelyn McLean
+    - name: Evelyn McLean
       affiliations:
         - TBE
     - name: Jane Abdo
