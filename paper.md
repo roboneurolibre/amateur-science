@@ -132,7 +132,12 @@ This pseudonymous collective of scientists has been writing [a blog about nutrit
 
 When asked in an interview what kind of impact they hope to make with their research, they wrote:
 
-> We’d like science to be more diverse — more kinds of people, doing more kinds of science, using more kinds of methods and paradigms, in more kinds of communities and institutions, and communicating their work in more and more different ways. We also want to usher in a 21st century scientific revolution. Ambitious research is possible, both inside and outside of institutions. We’d like this to be our impact, but also it doesn’t really matter since we think that at some level this is inevitable. Authority is brittle, it requires constant attention — the natural state of science is chaos. 
+> We’d like science to be more diverse — more kinds of people, doing more kinds of science, using more kinds of methods and paradigms, in more kinds of communities and institutions, and communicating their work in more and more different ways. We also want to usher in a 21st century scientific revolution. Ambitious research is possible, both inside and outside of institutions. We’d like this to be our impact, but also it doesn’t really matter since we think that at some level this is inevitable. Authority is brittle, it requires constant attention — the natural state of science is chaos.
+
+## Case Study: Seeds of Science
+
+Seeds of Science is an open-access journal founded by a collaborative team including a psychology professor, a physics PhD, and science enthusiasts. It aims to offer a publishing platform for non-traditional researchers without constraints of conventional academic formats. Seeds of Science believes in talent beyond university walls: The journal aspires to be a hub for disenfranchised scientists and individuals outside academia, facilitating collaboration, mentorship, and publication. Despite hurdles such as conforming to academic indexing standards and database inclusion, Seeds of Science remains committed to its mission. The journal advocates for a more inclusive and diverse scientific community, where unconventional ideas and speculative research can flourish. By challenging traditional gatekeeping mechanisms, they aspire to cultivate a culture that values open inquiry and fosters the next generation of innovative thinkers.
+
 
 # Conclusion
 
