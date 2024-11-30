@@ -26,19 +26,13 @@ const iframeDirective = {
       const scrolling = data.options.scrolling || 'yes';
       
       return [{
-        type: 'html',
-        value: `
-          <iframe 
-            src="${url}" 
-            width="${width}" 
-            height="${height}" 
-            frameborder="0" 
-            allowfullscreen
-            scrolling="${scrolling}"
-            style="overflow: auto; display: block; max-width: 100%; margin: 0 auto;"
-          ></iframe>
-        `
-      }];
+        type: 'iframe',
+        src: url,
+        width: width,
+        height: height,
+        scrolling: scrolling,
+        style: 'overflow: auto; display: block; max-width: 100%; margin: 0 auto;'
+        }];
     },
   };
   
