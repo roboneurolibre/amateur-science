@@ -37,8 +37,9 @@ project:
     - paper.bib
   resources:
     - content/figure1.ipynb
-site:
-  template: article-theme
   plugins:
     - type: javascript
       path: iframe-plugin.js  
+site:
+  template: article-theme
+
