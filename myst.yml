@@ -39,7 +39,7 @@ project:
     - content/figure1.ipynb
   plugins:
     - type: javascript
-      path: iframe-plugin.js  
+      path: iframe-plugin.mjs  
 site:
   template: article-theme
 
