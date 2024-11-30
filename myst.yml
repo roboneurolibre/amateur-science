@@ -40,4 +40,5 @@ project:
 site:
   template: article-theme
   plugins:
-    - path: ./iframe-plugin.js  
+    - type: javascript
+      path: iframe-plugin.js  
