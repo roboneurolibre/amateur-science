@@ -7,8 +7,7 @@ const plugin = {
       stage: 'document',
       plugin: (_, utils) => (node) => {
         utils.selectAll('iframe', node).forEach((iframeNode) => {
-          if (!iframeNode.style) iframeNode.style = '';
-          iframeNode.style += ' height: 130%;';
+          iframeNode['style'] = 'height: 130%;';
         });
       },
     },
