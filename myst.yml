@@ -37,7 +37,7 @@ project:
   bibliography:
     - paper.bib
   resources:
-    - content/figure1.ipynb
+    - content/figure_1.ipynb
 site:
   template: article-theme
 

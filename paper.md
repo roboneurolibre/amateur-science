@@ -141,7 +141,7 @@ We’d like science to be more diverse — more kinds of people, doing more kind
 
 ## Case Study: Seeds of Science
 
-[Seeds of Science] (https://www.theseedsofscience.org/) is an open-access journal founded by a collaborative team including a psychology professor, a physics PhD, and science enthusiasts. It aims to offer a publishing platform for non-traditional researchers without constraints of conventional academic formats. 
+[Seeds of Science](https://www.theseedsofscience.org/) is an open-access journal founded by a collaborative team including a psychology professor, a physics PhD, and science enthusiasts. It aims to offer a publishing platform for non-traditional researchers without constraints of conventional academic formats. 
 
 Seeds of Science believes in talent beyond university walls: The journal aspires to be a hub for disenfranchised scientists and individuals outside academia, facilitating collaboration, mentorship, and publication. Despite hurdles such as conforming to academic indexing standards and database inclusion, Seeds of Science remains committed to its mission. The journal advocates for a more inclusive and diverse scientific community, where unconventional ideas and speculative research can flourish. By challenging traditional gatekeeping mechanisms, they aspire to cultivate a culture that values open inquiry and fosters the next generation of innovative thinkers.
 
@@ -172,8 +172,10 @@ As we enter the 21st century, powerful new technological tools and the emergence
 An interactive timeline of amateur science through history.
 :::
 
-:::{figure} #carousel
+:::{figure} #fig1:plot1
 :label: fig-carousel
+
+Trying to get the figure to display.
 :::
 
 :::{admonition} Appendix A: Methodology for classifying patents
