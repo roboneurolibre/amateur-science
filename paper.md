@@ -23,11 +23,6 @@ The central role that the government and private industry play in funding big sc
 
 Despite these challenges, a devoted lineage of amateurs have continued to expand their fields from outside of the academy. In the last 60 years, new pathways have emerged for interested amateurs to contribute to large-scale scientific projects, and many have found ways to dialogue with professional scientists in their field. Recent developments in technology and increased access to scientific knowledge have spurred several movements calling for a more transparent and democratic scientific paradigm. **These changes prompt the question: are we on the verge of a renaissance in amateur science?**
 
-:::{figure} static/fig2stat.png
-:label: figstat
-
-Timeline of amateur science through history.
-:::
 
 This article features original research on patents, interviews with case study subjects, and discussion of secondary sources such as the [Stanford Encyclopedia of philosophy](https://plato.stanford.edu) [@zalta95], scholarly articles on the history of science, and Bowler and Morus’ textbook on the subject, Making Modern Science [@Bowler2020].
 
@@ -150,8 +145,6 @@ We’d like science to be more diverse — more kinds of people, doing more kind
 
 Seeds of Science believes in talent beyond university walls: The journal aspires to be a hub for disenfranchised scientists and individuals outside academia, facilitating collaboration, mentorship, and publication. Despite hurdles such as conforming to academic indexing standards and database inclusion, Seeds of Science remains committed to its mission. The journal advocates for a more inclusive and diverse scientific community, where unconventional ideas and speculative research can flourish. By challenging traditional gatekeeping mechanisms, they aspire to cultivate a culture that values open inquiry and fosters the next generation of innovative thinkers.
 
-
-
 # Conclusion
 
 *21st Century Science*
@@ -161,6 +154,12 @@ Since the 1980s and the beginning of home computing, new technologies have allow
 The Open Access movement began around 2000 with the goal of making scientific knowledge more accessible to all. Early Open Access pioneers created new journals that didn’t have paywalls, removing the financial and institutional barriers that prevented non-professionals from accessing new scientific literature. However, these publications supplemented their lost income from subscriptions by instituting large fees for authors and institutions, merely moving the cost of access to the scientists and institutions looking to publish. A new movement, known as Diamond or Platinum Open Access emerged in the 2010s, and used institutional funding and volunteer labor to create publishing platforms for scientific research that were free for both researchers and readers. 
 
 DeSci is a new set of methods for doing scientific research that doesn't rely on traditional centralized institutions like universities or government labs. Instead, it leverages distributed networks, open collaborations, and decentralized technologies to democratize access, enable global participation, and facilitate peer-to-peer validation of scientific claims and data. Desci aims to accelerate scientific progress by removing barriers, increasing transparency, and incentivizing contributions from a broader pool of researchers and citizen scientists worldwide. It uses decentralized autonomous organizations (DAOs), open science frameworks, and web3 technologies. These decentralized blockchain-based protocols allow researchers to self-organize into projects, validate each other's work through peer review, and get funding from distributed sources [@EthereumDesci].
+
+:::{figure} static/fig2stat.png
+:label: figstat
+
+Timeline of amateur science through history.
+:::
 
 As we enter the 21st century, powerful new technological tools and the emergence of innovations in the field of open science offer amateurs perhaps the greatest opportunity since the Scientific Revolution to directly participate in expanding the frontiers of knowledge. Just outside the gates of big science, where scores of professionals conduct their research under the purview of governments, universities, and corporations, there are countless amateurs, conducting their own research and contributing to the dream of a more democratic, decentralized science. 
 
@@ -178,7 +177,6 @@ An interactive timeline of amateur science through history.
 :::
 
 :::{admonition} Appendix A: Methodology for classifying patents
-:class: dropdown
 :label: appendixa
 
 The dataset in [](#fig1) was obtained by web scraping the WIPO PatentScope website from 1910 to 2023. For each year we scraped the first 99 pages from the database each year (~200 patents per page), creating a sample of around 19,800 patents per year before cleaning and preprocessing. Patents were sorted using the "Relevance" criterion, an algorithm applied to keyword searches (see Guide [here](https://patentscope.wipo.int/search/help/en/BM25scoring.pdf)). As no keywords were searched (only the publication year), the displayed patents are considered to be randomly sampled. Due to computational constraints, patents were scraped without delving into each individual patent. This approach limited the extraction of fields such as “Applicant” and “Inventor” to only the first row, possibly causing the observed fluctuations during the years 2010–2017. Patents were classified into three types: `Solo Inventor`, `Research/Company`, or `Other`.  These fields usually appear in the first row of the patent description. If this wasn't the case, or if the classification was unclear, the patent was `Other`. Other patents, typically unclear, were omitted from the analysis. Research/Company patents included applicants from private industries, research centers, and universities, while Solo Inventor patents had individuals as applicants. The relative proportions of the two patent types were calculated for each year and displayed as stacked bars using the Plotly Express library in Python, executed by and compiled into a MyST-formatted integrated research article [@Dupre2022-iro] by NeuroLibre [@Karakuzu2022-nlwf;@Harding2023-conp].
