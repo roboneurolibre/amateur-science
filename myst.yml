@@ -1,7 +1,8 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  title: 'Little Science, Big Science, and Beyond: How Amateurs Shape the Scientific Landscape'
+  title: 'Little Science, Big Science, and Beyond'
+  subtitle: 'How Amateurs Shape the Scientific Landscape'
   thebe:
     binder:
       url: https://binder-preview.conp.cloud

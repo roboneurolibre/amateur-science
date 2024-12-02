@@ -23,6 +23,12 @@ The central role that the government and private industry play in funding big sc
 
 Despite these challenges, a devoted lineage of amateurs have continued to expand their fields from outside of the academy. In the last 60 years, new pathways have emerged for interested amateurs to contribute to large-scale scientific projects, and many have found ways to dialogue with professional scientists in their field. Recent developments in technology and increased access to scientific knowledge have spurred several movements calling for a more transparent and democratic scientific paradigm. **These changes prompt the question: are we on the verge of a renaissance in amateur science?**
 
+:::{figure} static/fig2stat.png
+:label: figstat
+
+Timeline of amateur science through history.
+:::
+
 This article features original research on patents, interviews with case study subjects, and discussion of secondary sources such as the [Stanford Encyclopedia of philosophy](https://plato.stanford.edu) [@zalta95], scholarly articles on the history of science, and Bowler and Morus’ textbook on the subject, Making Modern Science [@Bowler2020].
 
 # The Long Reign of the Natural Philosopher
