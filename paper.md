@@ -7,8 +7,10 @@ tags:
 authors:
   - name: Evelyn McLean
     affiliation: "1, 2"
+    orcid: null
   - name: Jane Abdo
     affiliation: "3"
+    orcid: null
   - name: Nadia Blostein
     orcid: 0000-0002-1864-1899
     affiliation: "3"
@@ -26,9 +28,9 @@ affiliations:
   index: 4
 - name: Center for Advanced Interdisciplinary Research, Ss. Cyril and Methodius University, Skopje, North Macedonia
   index: 5
+abstract: "The idea of an _amateur_ in science is pretty new - many of the most significant scientists in history were curious people with regular jobs in their time (like "monk", or "tutor" or "son of a rich guy") who observed natural phenomena and then interpreted their findings. This pattern has changed dramatically over the last century – most science these days is done by professionals, and it is quite difficult for independent researchers to do science outside of academic or governmental institutions. This article covers the history of amateur science and traces its transformation from a wide variety of activities conducted by philosophers and hobbyists to a narrowly defined and highly competitive professional field. The article ends with an exploration of the role of the amateur in the production of scientific knowledge in the 21st century and the tools that have emerged to make it possible."
 date: 02 December 2024
 bibliography: paper.bib
-abstract: "The idea of an _amateur_ in science is pretty new - many of the most significant scientists in history were curious people with regular jobs in their time (like "monk", or "tutor" or "son of a rich guy") who observed natural phenomena and then interpreted their findings. This pattern has changed dramatically over the last century – most science these days is done by professionals, and it is quite difficult for independent researchers to do science outside of academic or governmental institutions. This article covers the history of amateur science and traces its transformation from a wide variety of activities conducted by philosophers and hobbyists to a narrowly defined and highly competitive professional field. The article ends with an exploration of the role of the amateur in the production of scientific knowledge in the 21st century and the tools that have emerged to make it possible."
 ---
 
 # Introduction
