@@ -162,20 +162,12 @@ Timeline of amateur science through history.
 
 As we enter the 21st century, powerful new technological tools and the emergence of innovations in the field of open science offer amateurs perhaps the greatest opportunity since the Scientific Revolution to directly participate in expanding the frontiers of knowledge. Just outside the gates of big science, where scores of professionals conduct their research under the purview of governments, universities, and corporations, there are countless amateurs, conducting their own research and contributing to the dream of a more democratic, decentralized science. 
 
-:::{iframe} https://janeabdo.github.io/carousel/
-:width: 100%
-:height: 160%
-:label: fig2
-
-
-An interactive timeline of amateur science through history.
-:::
-
 :::{figure} #fig2nb
 :label: fig-carousel
-:height: 1000px
+:height: 700px
+:align: center
 
-Trying to get the figure to display.
+An interactive timeline of amateur science through history. You can use {kbd}`<-` and {kbd}`->` to navigate through the timeline.
 :::
 
 :::{admonition} Appendix A: Methodology for classifying patents
