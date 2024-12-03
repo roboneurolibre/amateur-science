@@ -101,6 +101,13 @@ The 20th century also witnessed the escalating influence of science and industry
 
 The growth of research in government, private and academic settings accelerated the institutionalization of science, and led to a steady decline in the popularity of amateur science. Our research into worldwide patent applications over the course of the 20th century illustrates this shift. [](#fig1) highlights the relative proportion of patent applications filed by private companies, public research centers, and universities, as compared to patent applications filed by individual researchers. The steady increase in applications by institutions, and the decrease in applications filed by solo inventors, continues nearly unbroken for over 100 years.
 
+
+:::{figure} #fig1
+:label: fig-carousel
+
+Worldwide patent applications classification (1910 - 2023). Source: [WIPO](https://patentscope.wipo.int/) Patentscope.
+:::
+
 :::{iframe} https://chart-studio.plotly.com/~janeabdo/37.embed
 :width: 100% 
 :height: 600px 
@@ -172,7 +179,7 @@ As we enter the 21st century, powerful new technological tools and the emergence
 An interactive timeline of amateur science through history.
 :::
 
-:::{figure} #fig1:plot1
+:::{figure} #fig2
 :label: fig-carousel
 
 Trying to get the figure to display.
