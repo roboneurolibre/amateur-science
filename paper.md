@@ -105,17 +105,9 @@ The growth of research in government, private and academic settings accelerated 
 :::{figure} #fig1
 :label: fig-carousel
 
-Worldwide patent applications classification (1910 - 2023). Source: [WIPO](https://patentscope.wipo.int/) Patentscope.
+Worldwide patent applications classification (1910 - 2023). Please scroll horizontally to see the full figure. Source: [WIPO](https://patentscope.wipo.int/) Patentscope.
 :::
 
-:::{iframe} https://chart-studio.plotly.com/~janeabdo/37.embed
-:width: 100% 
-:height: 600px 
-:align: center
-:label: fig1
-
-Worldwide patent applications classification (1910 - 2023). Source: [WIPO](https://patentscope.wipo.int/) Patentscope.
-:::
 
 Relative proportion of worldwide patent applications classified by research/company and solo inventor from 1910 to 2023. The data shows an initial predominance of Solo Inventor patents and the steady increase of Research/Company patents during the mid-20th century, showing the professionalization of science. See [](#appendixa) for more detail on the methodology used. 
 
@@ -181,6 +173,7 @@ An interactive timeline of amateur science through history.
 
 :::{figure} #fig2
 :label: fig-carousel
+:height: 130%
 
 Trying to get the figure to display.
 :::
