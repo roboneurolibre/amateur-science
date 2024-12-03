@@ -11,7 +11,8 @@ project:
   authors:
     - name: Evelyn McLean
       affiliations:
-        - TBE
+        - Sundae Theory Artist Collective, Portland State University, Oregon, USA
+        - The Evergreen State College, Olympia, Washington, USA
     - name: Jane Abdo
       affiliations:
         - NeuroPoly, Polytechnique Montreal, Quebec, Canada
@@ -21,6 +22,8 @@ project:
     - name: Nikola Stikov
       affiliations:
         - NeuroPoly, Polytechnique Montreal, Quebec, Canada
+        - Montreal Heart Institute, Montreal, Quebec, Canada
+        - Interdisciplinary Research at the University Ss Cyril and Methodius in Skopje, Macedonia
   keywords:
     - amateur science
   github: https://github.com/agahkarakuzu/amateur-science

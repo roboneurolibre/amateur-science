@@ -1,4 +1,4 @@
 format: jb-book
-root: paper.md
+root: content/index.md
 chapters:
   - file: content/figure_1.ipynb

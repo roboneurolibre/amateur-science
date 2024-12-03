@@ -1,35 +1,6 @@
----
-title: 'Little Science, Big Science, and Beyond: How Amateurs Shape the Scientific Landscape'
-tags:
-  - Amateur Science
-  - Patents
-  - History of Science
-authors:
-  - name: Evelyn McLean
-    affiliation: "1, 2"
-  - name: Jane Abdo
-    affiliation: "3"
-  - name: Nadia Blostein
-    orcid: 0000-0002-1864-1899
-    affiliation: "3"
-  - name: Nikola Stikov
-    orcid: 0000-0002-8480-5230
-    affiliation: "3, 4, 5"
-affiliations:
-- name: Sundae Theory Artist Collective, Portland State University, Oregon, USA
-  index: 1
-- name: The Evergreen State College, Olympia, Washington, USA 
-  index: 2
-- name: NeuroPoly, Polytechnique Montreal, Quebec, Canada
-  index: 3
-- name: Montreal Heart Institute, Montreal, Quebec, Canada
-  index: 4
-- name: Center for Advanced Interdisciplinary Research, Ss. Cyril and Methodius University, Skopje, North Macedonia
-  index: 5
-date: 02 December 2024
-bibliography: paper.bib
-abstract: "The idea of an _amateur_ in science is pretty new - many of the most significant scientists in history were curious people with regular jobs in their time (like "monk", or "tutor" or "son of a rich guy") who observed natural phenomena and then interpreted their findings. This pattern has changed dramatically over the last century – most science these days is done by professionals, and it is quite difficult for independent researchers to do science outside of academic or governmental institutions. This article covers the history of amateur science and traces its transformation from a wide variety of activities conducted by philosophers and hobbyists to a narrowly defined and highly competitive professional field. The article ends with an exploration of the role of the amateur in the production of scientific knowledge in the 21st century and the tools that have emerged to make it possible."
----
++++{ "part": "abstract" }
+The idea of an _amateur_ in science is pretty new - many of the most significant scientists in history were curious people with regular jobs in their time (like "monk", or "tutor" or "son of a rich guy") who observed natural phenomena and then interpreted their findings. This pattern has changed dramatically over the last century – most science these days is done by professionals, and it is quite difficult for independent researchers to do science outside of academic or governmental institutions. This article covers the history of amateur science and traces its transformation from a wide variety of activities conducted by philosophers and hobbyists to a narrowly defined and highly competitive professional field. The article ends with an exploration of the role of the amateur in the production of scientific knowledge in the 21st century and the tools that have emerged to make it possible.
++++
 
 # Introduction
 
@@ -61,6 +32,14 @@ This article features original research on patents, interviews with case study s
 The modern version of the scientific method was established a few hundred years ago during the scientific revolution, but some of its component parts date back to the emergence of [natural philosophy](https://en.wikipedia.org/wiki/Natural_philosophy) in Ancient Greece. Natural philosophy was the earliest form of what we might call scientific practice. Natural philosophers, such as [Plato](https://en.wikipedia.org/wiki/Plato) and [Aristotle](https://en.wikipedia.org/wiki/Aristotle), made detailed observations about the world and attempted to use their findings to generate more general hypotheses about the nature of reality [Williams2000].
 
 This approach was inherently interdisciplinary. Natural philosophers were attempting to answer big, existential questions using all the tools they had at their disposal, and the bodies of work produced by these scholars were often wide-ranging and heterogenous, drawing on direct observation, religious texts, mathematics, intuition, folk wisdom, and formal logic.
+
+:::{aside} Inductive Reasoning
+Reasoning that involves using specific observations, such as observed patterns, to make a general conclusion. 
+:::
+
+:::{aside} Deductive Reasoning
+Starts from a set of general premises and then draws a specific conclusion that contains no more information than the premises themselves.
+:::
 
 Plato’s discovery of the deductive method was central to the development of science as we now know it, and laid the groundwork for his student Aristotle, who completed the earliest known formal study of logic in history, [the Organon](https://en.wikipedia.org/wiki/Organon). Aristotle’s discovery of inductive reasoning and emphasis on empiricism make him perhaps the most significant figure in the development of modern science before the 17th century. He also made founding contributions to the fields that would become physics, astronomy, geology, biology, zoology, and psychology, as well as setting the stage for centuries of productive engagement with these ideas throughout the Byzantine Empire and the Islamic Empire, long after Western Europe had plunged into the Dark Ages after the fall of Rome[@Kraut2022].
 
@@ -121,7 +100,13 @@ The 20th century also witnessed the escalating influence of science and industry
 
 The growth of research in government, private and academic settings accelerated the institutionalization of science, and led to a steady decline in the popularity of amateur science. Our research into worldwide patent applications over the course of the 20th century illustrates this shift. [](#fig1) highlights the relative proportion of patent applications filed by private companies, public research centers, and universities, as compared to patent applications filed by individual researchers. The steady increase in applications by institutions, and the decrease in applications filed by solo inventors, continues nearly unbroken for over 100 years.
 
-![Worldwide patent applications classification (1910 - 2023). Please scroll horizontally to see the full figure. Source: WIPO Patentscope. \label{fig1}](static/fig1.png)
+
+:::{figure} #fig1nb
+:label: fig1
+
+Worldwide patent applications classification (1910 - 2023). Please scroll horizontally to see the full figure. Source: [WIPO](https://patentscope.wipo.int/) Patentscope.
+:::
+
 
 Relative proportion of worldwide patent applications classified by research/company and solo inventor from 1910 to 2023. The data shows an initial predominance of Solo Inventor patents and the steady increase of Research/Company patents during the mid-20th century, showing the professionalization of science. See [](#appendixa) for more detail on the methodology used. 
 
@@ -147,8 +132,9 @@ This pseudonymous collective of scientists has been writing [a blog about nutrit
 
 When asked in an interview what kind of impact they hope to make with their research, they wrote:
 
-
-> We’d like science to be more diverse — more kinds of people, doing more kinds of science, using more kinds of methods and paradigms, in more kinds of communities and institutions, and communicating their work in more and more different ways. We also want to usher in a 21st century scientific revolution. Ambitious research is possible, both inside and outside of institutions. We’d like this to be our impact, but also it doesn’t really matter since we think that at some level this is inevitable. Authority is brittle, it requires constant attention — the natural state of science is chaos. 
+:::{pull-quote}
+We’d like science to be more diverse — more kinds of people, doing more kinds of science, using more kinds of methods and paradigms, in more kinds of communities and institutions, and communicating their work in more and more different ways. We also want to usher in a 21st century scientific revolution. Ambitious research is possible, both inside and outside of institutions. We’d like this to be our impact, but also it doesn’t really matter since we think that at some level this is inevitable. Authority is brittle, it requires constant attention — the natural state of science is chaos. 
+:::
 
 
 ## Case Study: Seeds of Science
@@ -167,14 +153,49 @@ The Open Access movement began around 2000 with the goal of making scientific kn
 
 DeSci is a new set of methods for doing scientific research that doesn't rely on traditional centralized institutions like universities or government labs. Instead, it leverages distributed networks, open collaborations, and decentralized technologies to democratize access, enable global participation, and facilitate peer-to-peer validation of scientific claims and data. Desci aims to accelerate scientific progress by removing barriers, increasing transparency, and incentivizing contributions from a broader pool of researchers and citizen scientists worldwide. It uses decentralized autonomous organizations (DAOs), open science frameworks, and web3 technologies. These decentralized blockchain-based protocols allow researchers to self-organize into projects, validate each other's work through peer review, and get funding from distributed sources [@EthereumDesci].
 
-![Timeline of amateur science through history. \label{figstat}](static/fig2stat.png)
+:::{figure} static/fig2stat.png
+:label: figstat
+
+Timeline of amateur science through history.
+:::
 
 As we enter the 21st century, powerful new technological tools and the emergence of innovations in the field of open science offer amateurs perhaps the greatest opportunity since the Scientific Revolution to directly participate in expanding the frontiers of knowledge. Just outside the gates of big science, where scores of professionals conduct their research under the purview of governments, universities, and corporations, there are countless amateurs, conducting their own research and contributing to the dream of a more democratic, decentralized science. 
 
-# Appendix A: Methodology for classifying patents {#appendixa}
+:::{figure} #fig2nb
+:label: fig-carousel
+:height: 700px
+:align: center
+
+An interactive timeline of amateur science through history. You can use {kbd}`<-` and {kbd}`->` to navigate through the timeline.
+:::
+
+:::{admonition} Appendix A: Methodology for classifying patents
+:label: appendixa
 
 The dataset in [](#fig1) was obtained by web scraping the WIPO PatentScope website from 1910 to 2023. For each year we scraped the first 99 pages from the database each year (~200 patents per page), creating a sample of around 19,800 patents per year before cleaning and preprocessing. Patents were sorted using the "Relevance" criterion, an algorithm applied to keyword searches (see Guide [here](https://patentscope.wipo.int/search/help/en/BM25scoring.pdf)). As no keywords were searched (only the publication year), the displayed patents are considered to be randomly sampled. Due to computational constraints, patents were scraped without delving into each individual patent. This approach limited the extraction of fields such as “Applicant” and “Inventor” to only the first row, possibly causing the observed fluctuations during the years 2010–2017. Patents were classified into three types: `Solo Inventor`, `Research/Company`, or `Other`.  These fields usually appear in the first row of the patent description. If this wasn't the case, or if the classification was unclear, the patent was `Other`. Other patents, typically unclear, were omitted from the analysis. Research/Company patents included applicants from private industries, research centers, and universities, while Solo Inventor patents had individuals as applicants. The relative proportions of the two patent types were calculated for each year and displayed as stacked bars using the Plotly Express library in Python, executed by and compiled into a MyST-formatted integrated research article [@Dupre2022-iro] by NeuroLibre [@Karakuzu2022-nlwf;@Harding2023-conp].
 
 Below is a more detailed breakdown of the decision tree used for classifying patents into `Solo Inventor`, `Research/Company`, or `Other`:  
 
-![Decision tree for classifying patents. \label{figstat}](static/appendix.png)
+```{mermaid}
+flowchart TD
+    Start["Start"]
+
+    Start --> CheckFields{"Are both 'Applicant' and 'Solo Inventor' fields present?"}
+
+    CheckFields -- "Yes" --> ApplicantResearch{"Does 'Applicant' contain research/company terms?"}
+    CheckFields -- "No" --> MissingInventor{"Is 'Inventor' field missing?"}
+    CheckFields -- "No Applicant" --> AssignSolo["Assign as 'Solo Inventor'"]
+
+    ApplicantResearch -- "Yes" --> InApplicantInventor{"Is 'Applicant' also in 'Inventor'?"}
+    ApplicantResearch -- "No" --> AssignOther1["Assign as 'Other'"]
+
+    InApplicantInventor -- "Yes" --> AssignSolo2["Assign as 'Solo Inventor'"]
+    InApplicantInventor -- "No" --> AssignResearchCompany["Assign as 'Research/Company'"]
+
+    MissingInventor -- "Yes" --> ApplicantContainsTerms{"Does 'Applicant' contain research/company terms?"}
+    MissingInventor -- "No" --> AssignOther2["Assign as 'Other'"]
+
+    ApplicantContainsTerms -- "Yes" --> AssignResearchCompany2["Assign as 'Research/Company'"]
+    ApplicantContainsTerms -- "No" --> AssignOther3["Assign as 'Other'"]
+```
+:::
