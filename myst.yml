@@ -1,46 +1,46 @@
-# See docs at: https://mystmd.org/guide/frontmatter
-version: 1
 project:
-  title: 'Little Science, Big Science, and Beyond'
-  subtitle: 'How Amateurs Shape the Scientific Landscape'
-  thebe:
-    binder:
-      url: https://binder-preview.conp.cloud
-      repo: agahkarakuzu/amateur-science
-      ref: HEAD
-  authors:
-    - name: Evelyn McLean
-      affiliations:
-        - Sundae Theory Artist Collective, Portland State University, Oregon, USA
-        - The Evergreen State College, Olympia, Washington, USA
-    - name: Jane Abdo
-      affiliations:
-        - NeuroPoly, Polytechnique Montreal, Quebec, Canada
-    - name: Nadia Blostein
-      affiliations:
-        - NeuroPoly, Polytechnique Montreal, Quebec, Canada     
-    - name: Nikola Stikov
-      affiliations:
-        - NeuroPoly, Polytechnique Montreal, Quebec, Canada
-        - Montreal Heart Institute, Montreal, Quebec, Canada
-        - Interdisciplinary Research at the University Ss Cyril and Methodius in Skopje, Macedonia
-  keywords:
-    - amateur science
-  github: https://github.com/agahkarakuzu/amateur-science
-  banner: static/banner.jpg
-  venue: Neurolibre
-  subject: Living Preprint
-  numbering:
-    headings: true
-  doi: 10.55458/neurolibre.xxxxx
-  open_access: true
-  license: CC-BY-4.0
   abbreviations:
     MyST: Markedly Structured Markdown
+  authors:
+  - affiliations:
+    - Sundae Theory Artist Collective, Portland State University, Oregon, USA
+    - The Evergreen State College, Olympia, Washington, USA
+    name: Evelyn McLean
+  - affiliations:
+    - NeuroPoly, Polytechnique Montreal, Quebec, Canada
+    name: Jane Abdo
+  - affiliations:
+    - NeuroPoly, Polytechnique Montreal, Quebec, Canada
+    name: Nadia Blostein
+  - affiliations:
+    - NeuroPoly, Polytechnique Montreal, Quebec, Canada
+    - Montreal Heart Institute, Montreal, Quebec, Canada
+    - Interdisciplinary Research at the University Ss Cyril and Methodius in Skopje,
+      Macedonia
+    name: Nikola Stikov
+  banner: static/banner.jpg
   bibliography:
-    - paper.bib
+  - paper.bib
+  copyright: NeuroLibre
+  doi: 10.55458/neurolibre.00031
+  github: https://github.com/agahkarakuzu/amateur-science
+  keywords:
+  - amateur science
+  license: CC-BY-4.0
+  numbering:
+    headings: true
+  open_access: true
   resources:
-    - content/figure_1.ipynb
+  - content/figure_1.ipynb
+  subject: Living Preprint
+  subtitle: How Amateurs Shape the Scientific Landscape
+  thebe:
+    binder:
+      ref: main
+      repo: https://github.com/roboneurolibre/amateur-science
+      url: https://binder-mcgill.conp.cloud
+  title: Little Science, Big Science, and Beyond
+  venue: NeuroLibre
 site:
   template: article-theme
-
+version: 1
