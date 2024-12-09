@@ -1,100 +1,103 @@
-# See docs at: https://mystmd.org/guide/frontmatter
-version: 1
 project:
-  title: 'Little Science, Big Science, and Beyond'
-  subtitle: 'How Amateurs Shape the Scientific Landscape'
-  thebe:
-    binder:
-      url: https://binder-preview.conp.cloud
-      repo: agahkarakuzu/amateur-science
-      ref: HEAD
-  authors:
-    - name: Evelyn McLean
-      affiliations: sundae; evergreen
-      url: https://evelyncmclean.com
-    - name: Jane Abdo
-      affiliations: polymtl
-      github: janeabdo
-      twitter: janeabdo
-    - name: Nadia Blostein
-      affiliations: polymtl
-      orcid: 0000-0002-1864-1899
-      github: NadiaBlostein
-    - name: Nikola Stikov
-      orcid: 0000-0002-8480-5230
-      corresponding: true
-      email: nikola.stikov@polymtl.ca
-      twitter: stikov
-      affiliations: polymtl; mhi; macedonia
-  affiliations:
-    - id: polymtl
-      institution: NeuroPoly Lab, Polytechnique Montreal
-      ror: https://ror.org/05f8d4e86
-      isni: 0000 0004 0435 3292
-      department: Electrical Engineering
-      address: 2500 Chem. de Polytechnique
-      city: Montreal
-      region: Quebec
-      country: Canada
-      postal_code: H3T 1J4
-      phone: 1 (514) 340-4711
-    - id: mhi
-      institution: Montreal Heart Institute
-      ror: https://ror.org/03vs03g62
-      isni: 0000 0000 8995 9090
-      address: 5000 Rue Belanger
-      city: Montreal
-      region: Quebec
-      country: Canada
-      postal_code: H1T 1C8
-    - id: macedonia
-      name: Center for Advanced Interdisciplinary Research, University Ss Cyril and Methodius in Skopje
-      ror: https://ror.org/02wk2vx54
-      isni: 0000 0001 0708 5391
-      address:  Boulevard Goce Delchev 9
-      city: Skopje
-      country: North Macedonia
-      postal_code: 1000
-    - id: sundae
-      institution: Sundae Theory Artist Collective, Portland State University
-      ror: https://ror.org/00yn2fy02
-      isni: 0000 0001 1087 1481
-      address: PO Box 751 Portland
-      city: Portland
-      region: Oregon
-      country: USA
-      postal_code: 97207
-    - id: evergreen
-      institution: The Evergreen State College
-      ror: https://ror.org/043yd1m08
-      isni: 0000 0000 8594 4289
-      address: 2700 Evergreen Pkwy
-      city: Olympia
-      region: Washington
-      country: USA
-      postal_code: 98505
-  keywords:
-    - Amateur Science
-    - Patents
-    - History of Science
-  github: https://github.com/agahkarakuzu/amateur-science
-  banner: static/banner.jpg
-  venue: Neurolibre
-  subject: Living Preprint
-  numbering:
-    headings: true
-  doi: 10.55458/neurolibre.xxxxx
-  open_access: true
-  license: CC-BY-4.0
   abbreviations:
     MyST: Markedly Structured Markdown
+  affiliations:
+  - address: 2500 Chem. de Polytechnique
+    city: Montreal
+    country: Canada
+    department: Electrical Engineering
+    id: polymtl
+    institution: NeuroPoly Lab, Polytechnique Montreal
+    isni: 0000 0004 0435 3292
+    phone: 1 (514) 340-4711
+    postal_code: H3T 1J4
+    region: Quebec
+    ror: https://ror.org/05f8d4e86
+  - address: 5000 Rue Belanger
+    city: Montreal
+    country: Canada
+    id: mhi
+    institution: Montreal Heart Institute
+    isni: 0000 0000 8995 9090
+    postal_code: H1T 1C8
+    region: Quebec
+    ror: https://ror.org/03vs03g62
+  - address: Boulevard Goce Delchev 9
+    city: Skopje
+    country: North Macedonia
+    id: macedonia
+    isni: 0000 0001 0708 5391
+    name: Center for Advanced Interdisciplinary Research, University Ss Cyril and
+      Methodius in Skopje
+    postal_code: 1000
+    ror: https://ror.org/02wk2vx54
+  - address: PO Box 751 Portland
+    city: Portland
+    country: USA
+    id: sundae
+    institution: Sundae Theory Artist Collective, Portland State University
+    isni: 0000 0001 1087 1481
+    postal_code: 97207
+    region: Oregon
+    ror: https://ror.org/00yn2fy02
+  - address: 2700 Evergreen Pkwy
+    city: Olympia
+    country: USA
+    id: evergreen
+    institution: The Evergreen State College
+    isni: 0000 0000 8594 4289
+    postal_code: 98505
+    region: Washington
+    ror: https://ror.org/043yd1m08
+  authors:
+  - affiliations: sundae; evergreen
+    name: Evelyn McLean
+    url: https://evelyncmclean.com
+  - affiliations: polymtl
+    github: janeabdo
+    name: Jane Abdo
+    twitter: janeabdo
+  - affiliations: polymtl
+    github: NadiaBlostein
+    name: Nadia Blostein
+    orcid: 0000-0002-1864-1899
+  - affiliations: polymtl; mhi; macedonia
+    corresponding: true
+    email: nikola.stikov@polymtl.ca
+    name: Nikola Stikov
+    orcid: 0000-0002-8480-5230
+    twitter: stikov
+  banner: static/banner.jpg
   bibliography:
-    - paper.bib
+  - paper.bib
+  copyright: NeuroLibre
+  doi: 10.55458/neurolibre.00031
+  github: https://github.com/roboneurolibre/amateur-science
+  keywords:
+  - Amateur Science
+  - Patents
+  - History of Science
+  license:
+    code: MIT
+    content: CC-BY-4.0
+  numbering:
+    headings: true
+  open_access: true
   resources:
-    - content/figure_1.ipynb
+  - content/figure_1.ipynb
+  subject: Living Preprint
+  subtitle: How Amateurs Shape the Scientific Landscape
+  thebe:
+    binder:
+      ref: main
+      repo: https://github.com/roboneurolibre/amateur-science
+      url: https://binder-mcgill.conp.cloud
+  title: Little Science, Big Science, and Beyond
+  venue: NeuroLibre
 site:
-  template: article-theme
   options:
-    favicon: static/favicon.ico
-    logo: static/logo.png
+    favicon: favicon.ico
+    logo: logo.png
     twitter: neurolibre
+  template: article-theme
+version: 1
