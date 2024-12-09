@@ -10,22 +10,70 @@ project:
       ref: HEAD
   authors:
     - name: Evelyn McLean
-      affiliations:
-        - Sundae Theory Artist Collective, Portland State University, Oregon, USA
-        - The Evergreen State College, Olympia, Washington, USA
+      affiliations: ['sundae','evergreen']
     - name: Jane Abdo
-      affiliations:
-        - NeuroPoly, Polytechnique Montreal, Quebec, Canada
+      affiliations: ['polymtl']
     - name: Nadia Blostein
-      affiliations:
-        - NeuroPoly, Polytechnique Montreal, Quebec, Canada     
+      affiliations: ['polymtl']
+      orcid: 0000-0002-1864-1899
     - name: Nikola Stikov
-      affiliations:
-        - NeuroPoly, Polytechnique Montreal, Quebec, Canada
-        - Montreal Heart Institute, Montreal, Quebec, Canada
-        - Interdisciplinary Research at the University Ss Cyril and Methodius in Skopje, Macedonia
+      orcid: 0000-0002-8480-5230
+      corresponding: true
+      email: nikola.stikov@polymtl.ca
+      twitter: stikov
+      affiliations: ['polymtl','mhi','macedonia']
+  affiliations:
+    - id: polymtl
+      institution: Polytechnique Montreal
+      ror: https://ror.org/05f8d4e86
+      isni: 0000 0004 0435 3292
+      department: Electrical Engineering
+      address: 2500 Chem. de Polytechnique
+      city: Montreal
+      region: Quebec
+      country: Canada
+      postal_code: H3T 1J4
+      phone: 1 (514) 340-4711
+    - id: mhi
+      institution: Montreal Heart Institute
+      ror: https://ror.org/03vs03g62
+      isni: 0000 0000 8995 9090
+      address: 5000 Rue Belanger
+      city: Montreal
+      region: Quebec
+      country: Canada
+      postal_code: H1T 1C8
+    - id: macedonia
+      institution: Interdisciplinary Research at the University Ss Cyril and Methodius in Skopje
+      ror: https://ror.org/02wk2vx54
+      isni: 0000 0001 0708 5391
+      address:  Boulevard Goce Delchev 9
+      city: Skopje
+      country: North Macedonia
+      postal_code: 1000
+    - id: sundae
+      institution: Portland State University
+      department: Sundae Theory Artist Collective
+      ror: https://ror.org/00yn2fy02
+      isni: 0000 0001 1087 1481
+      address: PO Box 751 Portland
+      city: Portland
+      region: Oregon
+      country: USA
+      postal_code: 97207
+    - id: evergreen
+      institution: The Evergreen State College
+      ror: https://ror.org/043yd1m08
+      isni: 0000 0000 8594 4289
+      address: 2700 Evergreen Pkwy
+      city: Olympia
+      region: Washington
+      country: USA
+      postal_code: 98505
   keywords:
-    - amateur science
+    - Amateur Science
+    - Patents
+    - History of Science
   github: https://github.com/agahkarakuzu/amateur-science
   banner: static/banner.jpg
   venue: Neurolibre
@@ -43,4 +91,3 @@ project:
     - content/figure_1.ipynb
 site:
   template: article-theme
-
