@@ -11,11 +11,15 @@ project:
   authors:
     - name: Evelyn McLean
       affiliations: sundae; evergreen
+      url: https://evelyncmclean.com
     - name: Jane Abdo
       affiliations: polymtl
+      github: janeabdo
+      twitter: janeabdo
     - name: Nadia Blostein
       affiliations: polymtl
       orcid: 0000-0002-1864-1899
+      github: NadiaBlostein
     - name: Nikola Stikov
       orcid: 0000-0002-8480-5230
       corresponding: true
@@ -24,6 +28,7 @@ project:
       affiliations: polymtl; mhi; macedonia
   affiliations:
     - id: polymtl
+      name: NeuroPoly Lab
       institution: Polytechnique Montreal
       ror: https://ror.org/05f8d4e86
       isni: 0000 0004 0435 3292
@@ -44,7 +49,8 @@ project:
       country: Canada
       postal_code: H1T 1C8
     - id: macedonia
-      institution: Interdisciplinary Research at the University Ss Cyril and Methodius in Skopje
+      name: Center for Advanced Interdisciplinary Research
+      institution: University Ss Cyril and Methodius in Skopje
       ror: https://ror.org/02wk2vx54
       isni: 0000 0001 0708 5391
       address:  Boulevard Goce Delchev 9
@@ -52,8 +58,8 @@ project:
       country: North Macedonia
       postal_code: 1000
     - id: sundae
+      name: Sundae Theory Artist Collective
       institution: Portland State University
-      department: Sundae Theory Artist Collective
       ror: https://ror.org/00yn2fy02
       isni: 0000 0001 1087 1481
       address: PO Box 751 Portland
@@ -91,3 +97,7 @@ project:
     - content/figure_1.ipynb
 site:
   template: article-theme
+  options:
+    favicon: static/favicon.ico
+    logo: static/logo.png
+    twitter: neurolibre
