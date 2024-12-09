@@ -10,18 +10,18 @@ project:
       ref: HEAD
   authors:
     - name: Evelyn McLean
-      affiliations: ['sundae','evergreen']
+      affiliations: sundae; evergreen
     - name: Jane Abdo
-      affiliations: ['polymtl']
+      affiliations: polymtl
     - name: Nadia Blostein
-      affiliations: ['polymtl']
+      affiliations: polymtl
       orcid: 0000-0002-1864-1899
     - name: Nikola Stikov
       orcid: 0000-0002-8480-5230
       corresponding: true
       email: nikola.stikov@polymtl.ca
       twitter: stikov
-      affiliations: ['polymtl','mhi','macedonia']
+      affiliations: polymtl; mhi; macedonia
   affiliations:
     - id: polymtl
       institution: Polytechnique Montreal
