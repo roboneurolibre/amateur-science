@@ -28,8 +28,7 @@ project:
       affiliations: polymtl; mhi; macedonia
   affiliations:
     - id: polymtl
-      name: NeuroPoly Lab
-      institution: Polytechnique Montreal
+      institution: NeuroPoly Lab, Polytechnique Montreal
       ror: https://ror.org/05f8d4e86
       isni: 0000 0004 0435 3292
       department: Electrical Engineering
@@ -49,8 +48,7 @@ project:
       country: Canada
       postal_code: H1T 1C8
     - id: macedonia
-      name: Center for Advanced Interdisciplinary Research
-      institution: University Ss Cyril and Methodius in Skopje
+      name: Center for Advanced Interdisciplinary Research, University Ss Cyril and Methodius in Skopje
       ror: https://ror.org/02wk2vx54
       isni: 0000 0001 0708 5391
       address:  Boulevard Goce Delchev 9
@@ -58,8 +56,7 @@ project:
       country: North Macedonia
       postal_code: 1000
     - id: sundae
-      name: Sundae Theory Artist Collective
-      institution: Portland State University
+      institution: Sundae Theory Artist Collective, Portland State University
       ror: https://ror.org/00yn2fy02
       isni: 0000 0001 1087 1481
       address: PO Box 751 Portland
